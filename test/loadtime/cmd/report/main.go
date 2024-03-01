@@ -11,8 +11,8 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/celestiaorg/celestia-core/store"
-	"github.com/celestiaorg/celestia-core/test/loadtime/report"
+	"github.com/badrootd/celestia-core/store"
+	"github.com/badrootd/celestia-core/test/loadtime/report"
 )
 
 var (

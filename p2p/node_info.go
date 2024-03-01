@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"reflect"
 
-	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
-	cmtstrings "github.com/celestiaorg/celestia-core/libs/strings"
-	tmp2p "github.com/celestiaorg/celestia-core/proto/tendermint/p2p"
-	"github.com/celestiaorg/celestia-core/version"
+	cmtbytes "github.com/badrootd/celestia-core/libs/bytes"
+	cmtstrings "github.com/badrootd/celestia-core/libs/strings"
+	tmp2p "github.com/badrootd/celestia-core/proto/tendermint/p2p"
+	"github.com/badrootd/celestia-core/version"
 )
 
 const (

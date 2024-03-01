@@ -10,7 +10,7 @@ import (
 	"math"
 	"time"
 
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
 )
 
 // Monitor monitors and limits the transfer rate of a data stream.

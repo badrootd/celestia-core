@@ -12,11 +12,11 @@ import (
 
 	db "github.com/cometbft/cometbft-db"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/pubsub/query"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	"github.com/celestiaorg/celestia-core/state/txindex"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/pubsub/query"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/state/txindex"
+	"github.com/badrootd/celestia-core/types"
 )
 
 func TestTxIndex(t *testing.T) {

@@ -8,11 +8,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
+	"github.com/badrootd/celestia-core/crypto"
+	cmtbytes "github.com/badrootd/celestia-core/libs/bytes"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	cmttime "github.com/badrootd/celestia-core/types/time"
 )
 
 const (

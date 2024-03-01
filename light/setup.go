@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/light/provider"
-	"github.com/celestiaorg/celestia-core/light/provider/http"
-	"github.com/celestiaorg/celestia-core/light/store"
+	"github.com/badrootd/celestia-core/light/provider"
+	"github.com/badrootd/celestia-core/light/provider/http"
+	"github.com/badrootd/celestia-core/light/store"
 )
 
 // NewHTTPClient initiates an instance of a light client using HTTP addresses

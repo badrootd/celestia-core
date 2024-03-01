@@ -7,8 +7,8 @@ import (
 
 	"context"
 
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	coregrpc "github.com/celestiaorg/celestia-core/rpc/grpc"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	coregrpc "github.com/badrootd/celestia-core/rpc/grpc"
 )
 
 var grpcAddr = "tcp://localhost:36656"

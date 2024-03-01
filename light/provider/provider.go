@@ -3,7 +3,7 @@ package provider
 import (
 	"context"
 
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // Provider provides information for the light client to sync (verification

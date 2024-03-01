@@ -8,14 +8,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/libs/service"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/service"
 
-	abcicli "github.com/celestiaorg/celestia-core/abci/client"
-	"github.com/celestiaorg/celestia-core/abci/example/code"
-	abciserver "github.com/celestiaorg/celestia-core/abci/server"
-	"github.com/celestiaorg/celestia-core/abci/types"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	abcicli "github.com/badrootd/celestia-core/abci/client"
+	"github.com/badrootd/celestia-core/abci/example/code"
+	abciserver "github.com/badrootd/celestia-core/abci/server"
+	"github.com/badrootd/celestia-core/abci/types"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
 )
 
 const (

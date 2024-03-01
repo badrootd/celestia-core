@@ -11,7 +11,7 @@ import (
 	kitlog "github.com/go-kit/log"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/log"
 )
 
 func TestTMFmtLogger(t *testing.T) {

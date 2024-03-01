@@ -8,10 +8,10 @@ import (
 
 	"golang.org/x/net/netutil"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/libs/protoio"
-	"github.com/celestiaorg/celestia-core/p2p/conn"
-	tmp2p "github.com/celestiaorg/celestia-core/proto/tendermint/p2p"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/libs/protoio"
+	"github.com/badrootd/celestia-core/p2p/conn"
+	tmp2p "github.com/badrootd/celestia-core/proto/tendermint/p2p"
 	"github.com/gogo/protobuf/proto"
 )
 

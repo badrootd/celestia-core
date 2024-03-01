@@ -8,11 +8,11 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/celestiaorg/celestia-core/libs/cmap"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/libs/service"
+	"github.com/badrootd/celestia-core/libs/cmap"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/service"
 
-	cmtconn "github.com/celestiaorg/celestia-core/p2p/conn"
+	cmtconn "github.com/badrootd/celestia-core/p2p/conn"
 )
 
 //go:generate ../scripts/mockery_generate.sh Peer

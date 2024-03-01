@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	"github.com/celestiaorg/celestia-core/privval"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	"github.com/badrootd/celestia-core/privval"
 )
 
 // ShowValidatorCmd adds capabilities for showing the validator info.

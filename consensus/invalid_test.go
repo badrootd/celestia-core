@@ -3,13 +3,13 @@ package consensus
 import (
 	"testing"
 
-	"github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	"github.com/celestiaorg/celestia-core/p2p"
-	cmtcons "github.com/celestiaorg/celestia-core/proto/tendermint/consensus"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/p2p"
+	cmtcons "github.com/badrootd/celestia-core/proto/tendermint/consensus"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 //----------------------------------------------

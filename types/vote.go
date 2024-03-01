@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/libs/protoio"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/crypto"
+	cmtbytes "github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/libs/protoio"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
 )
 
 const (

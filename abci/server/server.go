@@ -10,8 +10,8 @@ package server
 import (
 	"fmt"
 
-	"github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/service"
+	"github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/service"
 )
 
 func NewServer(protoAddr, transport string, app types.Application) (service.Service, error) {

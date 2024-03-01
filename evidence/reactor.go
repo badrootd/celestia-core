@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	clist "github.com/celestiaorg/celestia-core/libs/clist"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/p2p"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/types"
+	clist "github.com/badrootd/celestia-core/libs/clist"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/p2p"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/types"
 	"github.com/gogo/protobuf/proto"
 )
 

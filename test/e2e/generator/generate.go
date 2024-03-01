@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/Masterminds/semver/v3"
-	"github.com/celestiaorg/celestia-core/libs/math"
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/libs/math"
+	e2e "github.com/badrootd/celestia-core/test/e2e/pkg"
+	"github.com/badrootd/celestia-core/version"
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing/object"
 )

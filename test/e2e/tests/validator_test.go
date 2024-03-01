@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
-	"github.com/celestiaorg/celestia-core/types"
+	e2e "github.com/badrootd/celestia-core/test/e2e/pkg"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // Tests that validator sets are available and correct according to

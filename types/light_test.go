@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	cmtversion "github.com/celestiaorg/celestia-core/proto/tendermint/version"
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/crypto"
+	cmtversion "github.com/badrootd/celestia-core/proto/tendermint/version"
+	"github.com/badrootd/celestia-core/version"
 )
 
 func TestLightBlockValidateBasic(t *testing.T) {

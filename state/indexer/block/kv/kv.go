@@ -12,10 +12,10 @@ import (
 	dbm "github.com/cometbft/cometbft-db"
 	"github.com/google/orderedcode"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/pubsub/query"
-	"github.com/celestiaorg/celestia-core/state/indexer"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/pubsub/query"
+	"github.com/badrootd/celestia-core/state/indexer"
+	"github.com/badrootd/celestia-core/types"
 )
 
 var _ indexer.BlockIndexer = (*BlockerIndexer)(nil)

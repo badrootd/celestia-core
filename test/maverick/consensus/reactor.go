@@ -9,19 +9,19 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	cmtcon "github.com/celestiaorg/celestia-core/consensus"
-	cstypes "github.com/celestiaorg/celestia-core/consensus/types"
-	"github.com/celestiaorg/celestia-core/libs/bits"
-	cmtevents "github.com/celestiaorg/celestia-core/libs/events"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	"github.com/celestiaorg/celestia-core/p2p"
-	cmtcons "github.com/celestiaorg/celestia-core/proto/tendermint/consensus"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
+	cmtcon "github.com/badrootd/celestia-core/consensus"
+	cstypes "github.com/badrootd/celestia-core/consensus/types"
+	"github.com/badrootd/celestia-core/libs/bits"
+	cmtevents "github.com/badrootd/celestia-core/libs/events"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/p2p"
+	cmtcons "github.com/badrootd/celestia-core/proto/tendermint/consensus"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
+	cmttime "github.com/badrootd/celestia-core/types/time"
 )
 
 const (

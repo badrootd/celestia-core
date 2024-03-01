@@ -14,17 +14,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	"github.com/celestiaorg/celestia-core/mempool"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/p2p/mock"
-	memproto "github.com/celestiaorg/celestia-core/proto/tendermint/mempool"
-	"github.com/celestiaorg/celestia-core/proxy"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/abci/example/kvstore"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/mempool"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/p2p/mock"
+	memproto "github.com/badrootd/celestia-core/proto/tendermint/mempool"
+	"github.com/badrootd/celestia-core/proxy"
+	"github.com/badrootd/celestia-core/types"
 )
 
 const (

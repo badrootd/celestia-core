@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	rpchttp "github.com/celestiaorg/celestia-core/rpc/client/http"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
-	"github.com/celestiaorg/celestia-core/types"
+	rpchttp "github.com/badrootd/celestia-core/rpc/client/http"
+	rpctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	e2e "github.com/badrootd/celestia-core/test/e2e/pkg"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // waitForHeight waits for the network to reach a certain height (or above),

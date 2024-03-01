@@ -5,8 +5,8 @@ package privval
 
 import (
 	fmt "fmt"
-	crypto "github.com/celestiaorg/celestia-core/proto/tendermint/crypto"
-	types "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	crypto "github.com/badrootd/celestia-core/proto/tendermint/crypto"
+	types "github.com/badrootd/celestia-core/proto/tendermint/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"

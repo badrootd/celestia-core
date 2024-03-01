@@ -12,9 +12,9 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/libs/service"
-	types "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/service"
+	types "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
 )
 
 // WebSocket handler

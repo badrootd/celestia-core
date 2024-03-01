@@ -1,13 +1,13 @@
 package proxy
 
 import (
-	"github.com/celestiaorg/celestia-core/libs/bytes"
-	lrpc "github.com/celestiaorg/celestia-core/light/rpc"
-	rpcclient "github.com/celestiaorg/celestia-core/rpc/client"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	rpcserver "github.com/celestiaorg/celestia-core/rpc/jsonrpc/server"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/bytes"
+	lrpc "github.com/badrootd/celestia-core/light/rpc"
+	rpcclient "github.com/badrootd/celestia-core/rpc/client"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	rpcserver "github.com/badrootd/celestia-core/rpc/jsonrpc/server"
+	rpctypes "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 func RPCRoutes(c *lrpc.Client) map[string]*rpcserver.RPCFunc {

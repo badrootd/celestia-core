@@ -3,9 +3,9 @@ package cat
 import (
 	"fmt"
 
-	tmsync "github.com/celestiaorg/celestia-core/libs/sync"
-	"github.com/celestiaorg/celestia-core/mempool"
-	"github.com/celestiaorg/celestia-core/p2p"
+	tmsync "github.com/badrootd/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/mempool"
+	"github.com/badrootd/celestia-core/p2p"
 )
 
 const firstPeerID = mempool.UnknownPeerID + 1

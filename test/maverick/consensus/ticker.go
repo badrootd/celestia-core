@@ -3,8 +3,8 @@ package consensus
 import (
 	"time"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/libs/service"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/service"
 )
 
 var (

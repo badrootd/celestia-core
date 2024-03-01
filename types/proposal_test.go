@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	"github.com/celestiaorg/celestia-core/libs/protoio"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/libs/protoio"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
 )
 
 var (

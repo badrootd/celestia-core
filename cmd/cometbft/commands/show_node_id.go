@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/celestiaorg/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/p2p"
 )
 
 // ShowNodeIDCmd dumps node's ID to the standard output.

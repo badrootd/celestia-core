@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtpubsub "github.com/celestiaorg/celestia-core/libs/pubsub"
-	cmtquery "github.com/celestiaorg/celestia-core/libs/pubsub/query"
-	nm "github.com/celestiaorg/celestia-core/node"
-	rpcclient "github.com/celestiaorg/celestia-core/rpc/client"
-	"github.com/celestiaorg/celestia-core/rpc/core"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtpubsub "github.com/badrootd/celestia-core/libs/pubsub"
+	cmtquery "github.com/badrootd/celestia-core/libs/pubsub/query"
+	nm "github.com/badrootd/celestia-core/node"
+	rpcclient "github.com/badrootd/celestia-core/rpc/client"
+	"github.com/badrootd/celestia-core/rpc/core"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	rpctypes "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 /*

@@ -7,10 +7,10 @@ import (
 	dbm "github.com/cometbft/cometbft-db"
 	"github.com/gogo/protobuf/proto"
 
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	cmtstore "github.com/celestiaorg/celestia-core/proto/tendermint/store"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/types"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	cmtstore "github.com/badrootd/celestia-core/proto/tendermint/store"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 /*

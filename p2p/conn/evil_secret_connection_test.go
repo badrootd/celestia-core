@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/chacha20poly1305"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	cryptoenc "github.com/celestiaorg/celestia-core/crypto/encoding"
-	"github.com/celestiaorg/celestia-core/libs/protoio"
-	tmp2p "github.com/celestiaorg/celestia-core/proto/tendermint/p2p"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	cryptoenc "github.com/badrootd/celestia-core/crypto/encoding"
+	"github.com/badrootd/celestia-core/libs/protoio"
+	tmp2p "github.com/badrootd/celestia-core/proto/tendermint/p2p"
 )
 
 type buffer struct {

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtprotobits "github.com/celestiaorg/celestia-core/proto/tendermint/libs/bits"
+	cmtmath "github.com/badrootd/celestia-core/libs/math"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtprotobits "github.com/badrootd/celestia-core/proto/tendermint/libs/bits"
 )
 
 // BitArray is a thread-safe implementation of a bit array.

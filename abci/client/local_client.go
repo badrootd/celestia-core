@@ -1,9 +1,9 @@
 package abcicli
 
 import (
-	types "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/service"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	types "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/service"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
 )
 
 var _ Client = (*localClient)(nil)

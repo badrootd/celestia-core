@@ -10,7 +10,7 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/log"
 )
 
 var CompactGoLevelDBCmd = &cobra.Command{

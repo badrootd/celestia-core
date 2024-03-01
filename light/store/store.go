@@ -1,6 +1,6 @@
 package store
 
-import "github.com/celestiaorg/celestia-core/types"
+import "github.com/badrootd/celestia-core/types"
 
 // Store is anything that can persistently store headers.
 type Store interface {

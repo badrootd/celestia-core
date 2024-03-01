@@ -6,10 +6,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	cryptoenc "github.com/celestiaorg/celestia-core/crypto/encoding"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	cryptoenc "github.com/badrootd/celestia-core/crypto/encoding"
 )
 
 func TestABCIPubKey(t *testing.T) {

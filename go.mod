@@ -1,4 +1,4 @@
-module github.com/celestiaorg/celestia-core
+module github.com/badrootd/celestia-core
 
 go 1.22
 

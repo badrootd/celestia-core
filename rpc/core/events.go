@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	cmtpubsub "github.com/celestiaorg/celestia-core/libs/pubsub"
-	cmtquery "github.com/celestiaorg/celestia-core/libs/pubsub/query"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	cmtpubsub "github.com/badrootd/celestia-core/libs/pubsub"
+	cmtquery "github.com/badrootd/celestia-core/libs/pubsub/query"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	rpctypes "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
 )
 
 const (

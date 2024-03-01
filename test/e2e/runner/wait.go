@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
+	"github.com/badrootd/celestia-core/libs/log"
+	e2e "github.com/badrootd/celestia-core/test/e2e/pkg"
 )
 
 // Wait waits for a number of blocks to be produced, and for all nodes to catch

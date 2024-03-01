@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"strings"
 
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	types "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	types "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
 )
 
 const (

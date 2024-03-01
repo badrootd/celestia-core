@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtnet "github.com/badrootd/celestia-core/libs/net"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/types"
 )
 
 var (

@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/libs/service"
+	"github.com/badrootd/celestia-core/libs/service"
 )
 
 const (

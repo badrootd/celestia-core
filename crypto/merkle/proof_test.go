@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	cmtcrypto "github.com/celestiaorg/celestia-core/proto/tendermint/crypto"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	cmtcrypto "github.com/badrootd/celestia-core/proto/tendermint/crypto"
 )
 
 const ProofOpDomino = "test:domino"

@@ -1,7 +1,7 @@
 package evidence
 
 import (
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 //go:generate ../scripts/mockery_generate.sh BlockStore

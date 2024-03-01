@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/light/provider"
-	rpcclient "github.com/celestiaorg/celestia-core/rpc/client"
-	rpchttp "github.com/celestiaorg/celestia-core/rpc/client/http"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/light/provider"
+	rpcclient "github.com/badrootd/celestia-core/rpc/client"
+	rpchttp "github.com/badrootd/celestia-core/rpc/client/http"
+	"github.com/badrootd/celestia-core/types"
 )
 
 var (

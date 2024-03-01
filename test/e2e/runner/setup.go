@@ -16,14 +16,14 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/privval"
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
-	"github.com/celestiaorg/celestia-core/test/e2e/pkg/infra"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/privval"
+	e2e "github.com/badrootd/celestia-core/test/e2e/pkg"
+	"github.com/badrootd/celestia-core/test/e2e/pkg/infra"
+	"github.com/badrootd/celestia-core/types"
 )
 
 const (

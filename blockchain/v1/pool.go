@@ -3,9 +3,9 @@ package v1
 import (
 	"sort"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // BlockPool keeps track of the fast sync peers, block requests and block responses.

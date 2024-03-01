@@ -3,9 +3,9 @@ package txindex
 import (
 	"context"
 
-	"github.com/celestiaorg/celestia-core/libs/service"
-	"github.com/celestiaorg/celestia-core/state/indexer"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/service"
+	"github.com/badrootd/celestia-core/state/indexer"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // XXX/TODO: These types should be moved to the indexer package.

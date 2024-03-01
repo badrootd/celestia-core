@@ -7,16 +7,16 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/clist"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	"github.com/celestiaorg/celestia-core/mempool"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/pkg/trace"
-	"github.com/celestiaorg/celestia-core/pkg/trace/schema"
-	protomem "github.com/celestiaorg/celestia-core/proto/tendermint/mempool"
-	"github.com/celestiaorg/celestia-core/types"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/clist"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/mempool"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/pkg/trace"
+	"github.com/badrootd/celestia-core/pkg/trace/schema"
+	protomem "github.com/badrootd/celestia-core/proto/tendermint/mempool"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // Reactor handles mempool tx broadcasting amongst peers.

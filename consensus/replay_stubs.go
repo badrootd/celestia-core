@@ -1,12 +1,12 @@
 package consensus
 
 import (
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/clist"
-	mempl "github.com/celestiaorg/celestia-core/mempool"
-	cmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
-	"github.com/celestiaorg/celestia-core/proxy"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/clist"
+	mempl "github.com/badrootd/celestia-core/mempool"
+	cmtstate "github.com/badrootd/celestia-core/proto/tendermint/state"
+	"github.com/badrootd/celestia-core/proxy"
+	"github.com/badrootd/celestia-core/types"
 )
 
 //-----------------------------------------------------------------------------

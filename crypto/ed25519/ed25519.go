@@ -8,9 +8,9 @@ import (
 
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
 )
 
 //-------------------------------------

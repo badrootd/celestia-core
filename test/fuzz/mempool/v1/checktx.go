@@ -1,13 +1,13 @@
 package v1
 
 import (
-	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
-	"github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	mempl "github.com/celestiaorg/celestia-core/mempool"
-	"github.com/celestiaorg/celestia-core/proxy"
+	"github.com/badrootd/celestia-core/abci/example/kvstore"
+	"github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/log"
+	mempl "github.com/badrootd/celestia-core/mempool"
+	"github.com/badrootd/celestia-core/proxy"
 
-	mempoolv1 "github.com/celestiaorg/celestia-core/mempool/v1"
+	mempoolv1 "github.com/badrootd/celestia-core/mempool/v1"
 )
 
 var mempool mempl.Mempool

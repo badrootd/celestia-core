@@ -7,11 +7,11 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/light"
-	"github.com/celestiaorg/celestia-core/light/provider"
-	mockp "github.com/celestiaorg/celestia-core/light/provider/mock"
-	dbs "github.com/celestiaorg/celestia-core/light/store/db"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/light"
+	"github.com/badrootd/celestia-core/light/provider"
+	mockp "github.com/badrootd/celestia-core/light/provider/mock"
+	dbs "github.com/badrootd/celestia-core/light/store/db"
 )
 
 // NOTE: block is produced every minute. Make sure the verification time

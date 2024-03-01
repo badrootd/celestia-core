@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // simple, thread-safe in memory store for transactions

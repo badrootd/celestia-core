@@ -10,9 +10,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/cli"
-	rpchttp "github.com/celestiaorg/celestia-core/rpc/client/http"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/cli"
+	rpchttp "github.com/badrootd/celestia-core/rpc/client/http"
 )
 
 var dumpCmd = &cobra.Command{

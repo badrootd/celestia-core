@@ -10,13 +10,13 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/light"
-	"github.com/celestiaorg/celestia-core/light/provider"
-	httpp "github.com/celestiaorg/celestia-core/light/provider/http"
-	dbs "github.com/celestiaorg/celestia-core/light/store/db"
-	rpctest "github.com/celestiaorg/celestia-core/rpc/test"
+	"github.com/badrootd/celestia-core/abci/example/kvstore"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/light"
+	"github.com/badrootd/celestia-core/light/provider"
+	httpp "github.com/badrootd/celestia-core/light/provider/http"
+	dbs "github.com/badrootd/celestia-core/light/store/db"
+	rpctest "github.com/badrootd/celestia-core/rpc/test"
 )
 
 // Automatically getting new headers and verifying them.

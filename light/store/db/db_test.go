@@ -10,12 +10,12 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtversion "github.com/celestiaorg/celestia-core/proto/tendermint/version"
-	"github.com/celestiaorg/celestia-core/types"
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtversion "github.com/badrootd/celestia-core/proto/tendermint/version"
+	"github.com/badrootd/celestia-core/types"
+	"github.com/badrootd/celestia-core/version"
 )
 
 func TestLast_FirstLightBlockHeight(t *testing.T) {

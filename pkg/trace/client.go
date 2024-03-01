@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/log"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api/write"
 )

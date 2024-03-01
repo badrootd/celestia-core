@@ -14,18 +14,18 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/mempool/mock"
-	"github.com/celestiaorg/celestia-core/p2p"
-	bcproto "github.com/celestiaorg/celestia-core/proto/tendermint/blockchain"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/proxy"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/store"
-	"github.com/celestiaorg/celestia-core/types"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/mempool/mock"
+	"github.com/badrootd/celestia-core/p2p"
+	bcproto "github.com/badrootd/celestia-core/proto/tendermint/blockchain"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/proxy"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/store"
+	"github.com/badrootd/celestia-core/types"
+	cmttime "github.com/badrootd/celestia-core/types/time"
 )
 
 var config *cfg.Config

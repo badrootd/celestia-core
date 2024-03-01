@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	"github.com/celestiaorg/celestia-core/libs/tempfile"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	cmtbytes "github.com/badrootd/celestia-core/libs/bytes"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	"github.com/badrootd/celestia-core/libs/tempfile"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // *******************************************************************************************************************

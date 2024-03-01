@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	cstypes "github.com/celestiaorg/celestia-core/consensus/types"
+	cstypes "github.com/badrootd/celestia-core/consensus/types"
 	"github.com/go-kit/kit/metrics"
 	"github.com/go-kit/kit/metrics/discard"
 

@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	"github.com/celestiaorg/celestia-core/light/provider"
-	"github.com/celestiaorg/celestia-core/light/store"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtmath "github.com/badrootd/celestia-core/libs/math"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/light/provider"
+	"github.com/badrootd/celestia-core/light/store"
+	"github.com/badrootd/celestia-core/types"
 )
 
 type mode byte

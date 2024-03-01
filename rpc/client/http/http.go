@@ -7,16 +7,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/libs/bytes"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtpubsub "github.com/celestiaorg/celestia-core/libs/pubsub"
-	"github.com/celestiaorg/celestia-core/libs/service"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	rpcclient "github.com/celestiaorg/celestia-core/rpc/client"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	jsonrpcclient "github.com/celestiaorg/celestia-core/rpc/jsonrpc/client"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/bytes"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtpubsub "github.com/badrootd/celestia-core/libs/pubsub"
+	"github.com/badrootd/celestia-core/libs/service"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	rpcclient "github.com/badrootd/celestia-core/rpc/client"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	jsonrpcclient "github.com/badrootd/celestia-core/rpc/jsonrpc/client"
+	"github.com/badrootd/celestia-core/types"
 )
 
 /*

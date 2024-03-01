@@ -23,10 +23,10 @@ implementation.
 import (
 	"context"
 
-	"github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/libs/service"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/libs/service"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // Client wraps most important rpc calls a client would make if you want to

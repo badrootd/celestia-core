@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
 )
 
 // a wrapper to emulate a sum type: jsonrpcid = string | int

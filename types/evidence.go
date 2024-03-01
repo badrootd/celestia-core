@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/crypto/merkle"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/crypto/merkle"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
 )
 
 // Evidence represents any provable malicious activity by a validator.

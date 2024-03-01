@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/crypto/secp256k1"
-	rpchttp "github.com/celestiaorg/celestia-core/rpc/client/http"
-	mcs "github.com/celestiaorg/celestia-core/test/maverick/consensus"
+	"github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/crypto/secp256k1"
+	rpchttp "github.com/badrootd/celestia-core/rpc/client/http"
+	mcs "github.com/badrootd/celestia-core/test/maverick/consensus"
 )
 
 const (

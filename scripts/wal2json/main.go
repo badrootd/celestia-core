@@ -12,8 +12,8 @@ import (
 	"io"
 	"os"
 
-	cs "github.com/celestiaorg/celestia-core/consensus"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	cs "github.com/badrootd/celestia-core/consensus"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
 )
 
 func main() {

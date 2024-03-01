@@ -3,9 +3,9 @@ package state
 import (
 	dbm "github.com/cometbft/cometbft-db"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	cmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	cmtstate "github.com/badrootd/celestia-core/proto/tendermint/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 //

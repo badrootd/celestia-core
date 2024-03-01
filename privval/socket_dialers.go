@@ -5,9 +5,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
-	p2pconn "github.com/celestiaorg/celestia-core/p2p/conn"
+	"github.com/badrootd/celestia-core/crypto"
+	cmtnet "github.com/badrootd/celestia-core/libs/net"
+	p2pconn "github.com/badrootd/celestia-core/p2p/conn"
 )
 
 // Socket errors.

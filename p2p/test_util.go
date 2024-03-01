@@ -5,14 +5,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtnet "github.com/badrootd/celestia-core/libs/net"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
 
-	"github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/p2p/conn"
+	"github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/p2p/conn"
 )
 
 const testCh = 0x01

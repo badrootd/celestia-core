@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abcicli "github.com/celestiaorg/celestia-core/abci/client"
-	"github.com/celestiaorg/celestia-core/abci/server"
-	"github.com/celestiaorg/celestia-core/abci/types"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	"github.com/celestiaorg/celestia-core/libs/service"
+	abcicli "github.com/badrootd/celestia-core/abci/client"
+	"github.com/badrootd/celestia-core/abci/server"
+	"github.com/badrootd/celestia-core/abci/types"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/libs/service"
 )
 
 func TestProperSyncCalls(t *testing.T) {

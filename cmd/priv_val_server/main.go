@@ -5,12 +5,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtnet "github.com/badrootd/celestia-core/libs/net"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
 
-	"github.com/celestiaorg/celestia-core/privval"
+	"github.com/badrootd/celestia-core/privval"
 )
 
 func main() {

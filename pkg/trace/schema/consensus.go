@@ -1,10 +1,10 @@
 package schema
 
 import (
-	cstypes "github.com/celestiaorg/celestia-core/consensus/types"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/pkg/trace"
-	"github.com/celestiaorg/celestia-core/types"
+	cstypes "github.com/badrootd/celestia-core/consensus/types"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/pkg/trace"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // ConsensusTables returns the list of tables that are used for consensus

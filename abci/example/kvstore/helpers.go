@@ -1,8 +1,8 @@
 package kvstore
 
 import (
-	"github.com/celestiaorg/celestia-core/abci/types"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/abci/types"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
 )
 
 // RandVal creates one random validator, with a key derived

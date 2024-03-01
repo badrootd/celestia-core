@@ -5,12 +5,12 @@ import (
 	"os"
 	"testing"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/types"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/types"
+	cmttime "github.com/badrootd/celestia-core/types/time"
 )
 
 var config *cfg.Config // NOTE: must be reset for each _test.go file

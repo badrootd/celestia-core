@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/log"
 )
 
 var (

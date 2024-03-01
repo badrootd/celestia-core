@@ -3,7 +3,7 @@ package log
 import (
 	"fmt"
 
-	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
+	cmtbytes "github.com/badrootd/celestia-core/libs/bytes"
 )
 
 type LazySprintf struct {

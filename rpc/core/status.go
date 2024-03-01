@@ -3,11 +3,11 @@ package core
 import (
 	"time"
 
-	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/p2p"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
-	"github.com/celestiaorg/celestia-core/types"
+	cmtbytes "github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/p2p"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	rpctypes "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // Status returns CometBFT status including node info, pubkey, latest block

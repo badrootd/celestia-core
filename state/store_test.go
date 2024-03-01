@@ -10,14 +10,14 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtstate "github.com/badrootd/celestia-core/proto/tendermint/state"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 func TestStoreLoadValidators(t *testing.T) {

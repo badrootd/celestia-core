@@ -11,13 +11,13 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	auto "github.com/celestiaorg/celestia-core/libs/autofile"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	"github.com/celestiaorg/celestia-core/libs/service"
-	cmtcons "github.com/celestiaorg/celestia-core/proto/tendermint/consensus"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
+	auto "github.com/badrootd/celestia-core/libs/autofile"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	"github.com/badrootd/celestia-core/libs/service"
+	cmtcons "github.com/badrootd/celestia-core/proto/tendermint/consensus"
+	cmttime "github.com/badrootd/celestia-core/types/time"
 )
 
 const (

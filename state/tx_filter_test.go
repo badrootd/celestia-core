@@ -9,9 +9,9 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 func TestTxFilter(t *testing.T) {

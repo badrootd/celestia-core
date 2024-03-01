@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/rpc/client/mock"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
+	"github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/rpc/client/mock"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
 )
 
 func TestStatus(t *testing.T) {

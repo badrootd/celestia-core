@@ -3,12 +3,12 @@ package privval
 import (
 	"fmt"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	cryptoenc "github.com/celestiaorg/celestia-core/crypto/encoding"
-	cryptoproto "github.com/celestiaorg/celestia-core/proto/tendermint/crypto"
-	privvalproto "github.com/celestiaorg/celestia-core/proto/tendermint/privval"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/crypto"
+	cryptoenc "github.com/badrootd/celestia-core/crypto/encoding"
+	cryptoproto "github.com/badrootd/celestia-core/proto/tendermint/crypto"
+	privvalproto "github.com/badrootd/celestia-core/proto/tendermint/privval"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 func DefaultValidationRequestHandler(

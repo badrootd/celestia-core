@@ -3,7 +3,7 @@ package schema
 import (
 	"strings"
 
-	"github.com/celestiaorg/celestia-core/config"
+	"github.com/badrootd/celestia-core/config"
 )
 
 func init() {

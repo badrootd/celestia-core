@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/crypto/secp256k1"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/crypto/secp256k1"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
 )
 
 const (

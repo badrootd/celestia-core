@@ -9,11 +9,11 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/celestiaorg/celestia-core/abci/example/code"
-	"github.com/celestiaorg/celestia-core/abci/types"
-	cryptoenc "github.com/celestiaorg/celestia-core/crypto/encoding"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	pc "github.com/celestiaorg/celestia-core/proto/tendermint/crypto"
+	"github.com/badrootd/celestia-core/abci/example/code"
+	"github.com/badrootd/celestia-core/abci/types"
+	cryptoenc "github.com/badrootd/celestia-core/crypto/encoding"
+	"github.com/badrootd/celestia-core/libs/log"
+	pc "github.com/badrootd/celestia-core/proto/tendermint/crypto"
 )
 
 const (

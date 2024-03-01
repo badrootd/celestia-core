@@ -4,13 +4,13 @@ import (
 	"errors"
 	"fmt"
 
-	cstypes "github.com/celestiaorg/celestia-core/consensus/types"
-	"github.com/celestiaorg/celestia-core/libs/bits"
-	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
-	"github.com/celestiaorg/celestia-core/p2p"
-	cmtcons "github.com/celestiaorg/celestia-core/proto/tendermint/consensus"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/types"
+	cstypes "github.com/badrootd/celestia-core/consensus/types"
+	"github.com/badrootd/celestia-core/libs/bits"
+	cmtmath "github.com/badrootd/celestia-core/libs/math"
+	"github.com/badrootd/celestia-core/p2p"
+	cmtcons "github.com/badrootd/celestia-core/proto/tendermint/consensus"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/types"
 	"github.com/gogo/protobuf/proto"
 )
 

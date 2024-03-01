@@ -7,14 +7,14 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/celestiaorg/celestia-core/behaviour"
-	bc "github.com/celestiaorg/celestia-core/blockchain"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	"github.com/celestiaorg/celestia-core/p2p"
-	bcproto "github.com/celestiaorg/celestia-core/proto/tendermint/blockchain"
-	"github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/behaviour"
+	bc "github.com/badrootd/celestia-core/blockchain"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/p2p"
+	bcproto "github.com/badrootd/celestia-core/proto/tendermint/blockchain"
+	"github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 const (

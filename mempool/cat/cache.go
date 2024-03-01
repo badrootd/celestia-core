@@ -4,8 +4,8 @@ import (
 	"container/list"
 	"time"
 
-	tmsync "github.com/celestiaorg/celestia-core/libs/sync"
-	"github.com/celestiaorg/celestia-core/types"
+	tmsync "github.com/badrootd/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // LRUTxCache maintains a thread-safe LRU cache of raw transactions. The cache

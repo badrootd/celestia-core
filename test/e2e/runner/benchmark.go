@@ -6,8 +6,8 @@ import (
 	"math"
 	"time"
 
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
-	"github.com/celestiaorg/celestia-core/types"
+	e2e "github.com/badrootd/celestia-core/test/e2e/pkg"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // Benchmark is a simple function for fetching, calculating and printing

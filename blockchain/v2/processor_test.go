@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/celestiaorg/celestia-core/p2p"
-	cmtState "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/p2p"
+	cmtState "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // pcBlock is a test helper structure with simple types. Its purpose is to help with test readability.

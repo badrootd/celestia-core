@@ -3,7 +3,7 @@ package node
 import (
 	"time"
 
-	"github.com/celestiaorg/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto"
 )
 
 type ID struct {

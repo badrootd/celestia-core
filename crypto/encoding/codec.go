@@ -3,11 +3,11 @@ package encoding
 import (
 	"fmt"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/crypto/secp256k1"
-	"github.com/celestiaorg/celestia-core/libs/json"
-	pc "github.com/celestiaorg/celestia-core/proto/tendermint/crypto"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/crypto/secp256k1"
+	"github.com/badrootd/celestia-core/libs/json"
+	pc "github.com/badrootd/celestia-core/proto/tendermint/crypto"
 )
 
 func init() {

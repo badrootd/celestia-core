@@ -8,17 +8,17 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	memmock "github.com/celestiaorg/celestia-core/mempool/mock"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/state/mocks"
-	"github.com/celestiaorg/celestia-core/test/factory"
-	"github.com/celestiaorg/celestia-core/types"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/libs/log"
+	memmock "github.com/badrootd/celestia-core/mempool/mock"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/state/mocks"
+	"github.com/badrootd/celestia-core/test/factory"
+	"github.com/badrootd/celestia-core/types"
+	cmttime "github.com/badrootd/celestia-core/types/time"
 )
 
 const validationTestsStopHeight int64 = 10

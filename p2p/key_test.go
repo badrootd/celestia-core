@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
 )
 
 func TestLoadOrGenNodeKey(t *testing.T) {

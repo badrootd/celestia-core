@@ -1,7 +1,7 @@
 package state
 
 import (
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 //------------------------------------------------------

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	mempl "github.com/celestiaorg/celestia-core/mempool"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	mempl "github.com/badrootd/celestia-core/mempool"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	rpctypes "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 //-----------------------------------------------------------------------------

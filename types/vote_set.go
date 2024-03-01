@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/celestiaorg/celestia-core/libs/bits"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/libs/bits"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
 )
 
 const (

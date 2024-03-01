@@ -20,7 +20,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
 )
 
 func TestRFC6962Hasher(t *testing.T) {

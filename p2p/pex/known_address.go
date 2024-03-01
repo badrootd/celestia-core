@@ -3,7 +3,7 @@ package pex
 import (
 	"time"
 
-	"github.com/celestiaorg/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/p2p"
 )
 
 // knownAddress tracks information about a known network address

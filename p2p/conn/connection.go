@@ -14,14 +14,14 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	flow "github.com/celestiaorg/celestia-core/libs/flowrate"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
-	"github.com/celestiaorg/celestia-core/libs/protoio"
-	"github.com/celestiaorg/celestia-core/libs/service"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	"github.com/celestiaorg/celestia-core/libs/timer"
-	tmp2p "github.com/celestiaorg/celestia-core/proto/tendermint/p2p"
+	flow "github.com/badrootd/celestia-core/libs/flowrate"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtmath "github.com/badrootd/celestia-core/libs/math"
+	"github.com/badrootd/celestia-core/libs/protoio"
+	"github.com/badrootd/celestia-core/libs/service"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/libs/timer"
+	tmp2p "github.com/badrootd/celestia-core/proto/tendermint/p2p"
 )
 
 const (

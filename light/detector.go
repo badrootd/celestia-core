@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/light/provider"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/light/provider"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // The detector component of the light client detects and handles attacks on the light client.

@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	bcproto "github.com/celestiaorg/celestia-core/proto/tendermint/blockchain"
-	"github.com/celestiaorg/celestia-core/types"
+	bcproto "github.com/badrootd/celestia-core/proto/tendermint/blockchain"
+	"github.com/badrootd/celestia-core/types"
 )
 
 func TestBcBlockRequestMessageValidateBasic(t *testing.T) {

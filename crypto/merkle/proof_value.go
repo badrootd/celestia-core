@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	cmtcrypto "github.com/celestiaorg/celestia-core/proto/tendermint/crypto"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	cmtcrypto "github.com/badrootd/celestia-core/proto/tendermint/crypto"
 )
 
 const ProofOpValue = "simple:v"

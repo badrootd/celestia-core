@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	abcicli "github.com/celestiaorg/celestia-core/abci/client"
-	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
-	"github.com/celestiaorg/celestia-core/abci/server"
-	"github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	abcicli "github.com/badrootd/celestia-core/abci/client"
+	"github.com/badrootd/celestia-core/abci/example/kvstore"
+	"github.com/badrootd/celestia-core/abci/server"
+	"github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
 )
 
 //----------------------------------------

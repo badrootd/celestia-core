@@ -21,13 +21,13 @@ import (
 	"golang.org/x/crypto/hkdf"
 	"golang.org/x/crypto/nacl/box"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	cryptoenc "github.com/celestiaorg/celestia-core/crypto/encoding"
-	"github.com/celestiaorg/celestia-core/libs/async"
-	"github.com/celestiaorg/celestia-core/libs/protoio"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	tmp2p "github.com/celestiaorg/celestia-core/proto/tendermint/p2p"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	cryptoenc "github.com/badrootd/celestia-core/crypto/encoding"
+	"github.com/badrootd/celestia-core/libs/async"
+	"github.com/badrootd/celestia-core/libs/protoio"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	tmp2p "github.com/badrootd/celestia-core/proto/tendermint/p2p"
 )
 
 // 4 + 1024 == 1028 total frame size

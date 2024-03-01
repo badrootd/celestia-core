@@ -5,13 +5,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/privval"
-	"github.com/celestiaorg/celestia-core/types"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
+	cfg "github.com/badrootd/celestia-core/config"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/privval"
+	"github.com/badrootd/celestia-core/types"
+	cmttime "github.com/badrootd/celestia-core/types/time"
 )
 
 // InitFilesCmd initialises a fresh CometBFT Core instance.

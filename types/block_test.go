@@ -16,16 +16,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/merkle"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	"github.com/celestiaorg/celestia-core/libs/bits"
-	"github.com/celestiaorg/celestia-core/libs/bytes"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	cmtversion "github.com/celestiaorg/celestia-core/proto/tendermint/version"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/merkle"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/libs/bits"
+	"github.com/badrootd/celestia-core/libs/bytes"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	cmtversion "github.com/badrootd/celestia-core/proto/tendermint/version"
+	cmttime "github.com/badrootd/celestia-core/types/time"
+	"github.com/badrootd/celestia-core/version"
 )
 
 func TestMain(m *testing.M) {

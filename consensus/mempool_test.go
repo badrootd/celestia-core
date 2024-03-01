@@ -12,12 +12,12 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/celestiaorg/celestia-core/abci/example/code"
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	cfg "github.com/celestiaorg/celestia-core/config"
-	mempl "github.com/celestiaorg/celestia-core/mempool"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/abci/example/code"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	cfg "github.com/badrootd/celestia-core/config"
+	mempl "github.com/badrootd/celestia-core/mempool"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // for testing

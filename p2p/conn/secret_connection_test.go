@@ -17,12 +17,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/crypto/sr25519"
-	"github.com/celestiaorg/celestia-core/libs/async"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/crypto/sr25519"
+	"github.com/badrootd/celestia-core/libs/async"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
 )
 
 // Run go test -update from within this module

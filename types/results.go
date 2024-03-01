@@ -1,8 +1,8 @@
 package types
 
 import (
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/crypto/merkle"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/crypto/merkle"
 )
 
 // ABCIResults wraps the deliver tx results to return a proof.

@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
 )
 
 func createTestGroupWithHeadSizeLimit(t *testing.T, headSizeLimit int64) *Group {

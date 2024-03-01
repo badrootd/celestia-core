@@ -3,7 +3,7 @@ package crypto_test
 import (
 	"fmt"
 
-	"github.com/celestiaorg/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto"
 )
 
 func ExampleSha256() {

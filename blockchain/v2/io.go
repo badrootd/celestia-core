@@ -3,10 +3,10 @@ package v2
 import (
 	"fmt"
 
-	"github.com/celestiaorg/celestia-core/p2p"
-	bcproto "github.com/celestiaorg/celestia-core/proto/tendermint/blockchain"
-	"github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/p2p"
+	bcproto "github.com/badrootd/celestia-core/proto/tendermint/blockchain"
+	"github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 type iIO interface {

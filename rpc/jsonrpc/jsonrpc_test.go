@@ -18,13 +18,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	cmtbytes "github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
 
-	client "github.com/celestiaorg/celestia-core/rpc/jsonrpc/client"
-	server "github.com/celestiaorg/celestia-core/rpc/jsonrpc/server"
-	types "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	client "github.com/badrootd/celestia-core/rpc/jsonrpc/client"
+	server "github.com/badrootd/celestia-core/rpc/jsonrpc/server"
+	types "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
 )
 
 // Client and Server should work over tcp or unix sockets

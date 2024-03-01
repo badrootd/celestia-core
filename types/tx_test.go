@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	"github.com/celestiaorg/celestia-core/pkg/consts"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/pkg/consts"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
 )
 
 func makeTxs(cnt, size int) Txs {

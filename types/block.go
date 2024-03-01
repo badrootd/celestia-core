@@ -10,16 +10,16 @@ import (
 	"github.com/gogo/protobuf/proto"
 	gogotypes "github.com/gogo/protobuf/types"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/merkle"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	"github.com/celestiaorg/celestia-core/libs/bits"
-	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
-	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	cmtversion "github.com/celestiaorg/celestia-core/proto/tendermint/version"
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/merkle"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/libs/bits"
+	cmtbytes "github.com/badrootd/celestia-core/libs/bytes"
+	cmtmath "github.com/badrootd/celestia-core/libs/math"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	cmtversion "github.com/badrootd/celestia-core/proto/tendermint/version"
+	"github.com/badrootd/celestia-core/version"
 )
 
 const (

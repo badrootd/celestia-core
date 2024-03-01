@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/celestiaorg/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/p2p"
 )
 
 type ErrAddrBookNonRoutable struct {

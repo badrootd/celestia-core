@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	types "github.com/celestiaorg/celestia-core/types"
+	types "github.com/badrootd/celestia-core/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

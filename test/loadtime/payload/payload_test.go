@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/celestiaorg/celestia-core/test/loadtime/payload"
+	"github.com/badrootd/celestia-core/test/loadtime/payload"
 )
 
 const payloadSizeTarget = 1024 // 1kb

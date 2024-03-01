@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
-	nm "github.com/celestiaorg/celestia-core/node"
-	rpctest "github.com/celestiaorg/celestia-core/rpc/test"
+	"github.com/badrootd/celestia-core/abci/example/kvstore"
+	nm "github.com/badrootd/celestia-core/node"
+	rpctest "github.com/badrootd/celestia-core/rpc/test"
 )
 
 var node *nm.Node

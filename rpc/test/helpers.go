@@ -8,18 +8,18 @@ import (
 	"strings"
 	"time"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/log"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/log"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
-	nm "github.com/celestiaorg/celestia-core/node"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/privval"
-	"github.com/celestiaorg/celestia-core/proxy"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	core_grpc "github.com/celestiaorg/celestia-core/rpc/grpc"
-	rpcclient "github.com/celestiaorg/celestia-core/rpc/jsonrpc/client"
+	cfg "github.com/badrootd/celestia-core/config"
+	cmtnet "github.com/badrootd/celestia-core/libs/net"
+	nm "github.com/badrootd/celestia-core/node"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/privval"
+	"github.com/badrootd/celestia-core/proxy"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	core_grpc "github.com/badrootd/celestia-core/rpc/grpc"
+	rpcclient "github.com/badrootd/celestia-core/rpc/jsonrpc/client"
 )
 
 // Options helps with specifying some parameters for our RPC testing for greater

@@ -1,7 +1,7 @@
 package mempool
 
 import (
-	"github.com/celestiaorg/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/p2p"
 )
 
 // TxInfo are parameters that get passed when attempting to add a tx to the

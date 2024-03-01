@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	types "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	types "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
 )
 
 func unmarshalResponseBytes(

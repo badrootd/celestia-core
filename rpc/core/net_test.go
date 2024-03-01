@@ -6,10 +6,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/p2p"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/p2p"
+	rpctypes "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
 )
 
 func TestUnsafeDialSeeds(t *testing.T) {

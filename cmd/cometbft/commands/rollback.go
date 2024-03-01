@@ -8,10 +8,10 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/os"
-	"github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/store"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/os"
+	"github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/store"
 )
 
 var removeBlock = false

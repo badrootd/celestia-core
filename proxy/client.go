@@ -3,12 +3,12 @@ package proxy
 import (
 	"fmt"
 
-	abcicli "github.com/celestiaorg/celestia-core/abci/client"
-	"github.com/celestiaorg/celestia-core/abci/example/counter"
-	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
-	"github.com/celestiaorg/celestia-core/abci/types"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/app"
+	abcicli "github.com/badrootd/celestia-core/abci/client"
+	"github.com/badrootd/celestia-core/abci/example/counter"
+	"github.com/badrootd/celestia-core/abci/example/kvstore"
+	"github.com/badrootd/celestia-core/abci/types"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	e2e "github.com/badrootd/celestia-core/test/e2e/app"
 )
 
 //go:generate ../scripts/mockery_generate.sh ClientCreator

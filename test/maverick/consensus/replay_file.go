@@ -12,14 +12,14 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	cmtcon "github.com/celestiaorg/celestia-core/consensus"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	"github.com/celestiaorg/celestia-core/proxy"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/store"
-	"github.com/celestiaorg/celestia-core/types"
+	cfg "github.com/badrootd/celestia-core/config"
+	cmtcon "github.com/badrootd/celestia-core/consensus"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	"github.com/badrootd/celestia-core/proxy"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/store"
+	"github.com/badrootd/celestia-core/types"
 )
 
 const (

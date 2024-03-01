@@ -1,8 +1,8 @@
 package sr25519
 
 import (
-	"github.com/celestiaorg/celestia-core/crypto"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	"github.com/badrootd/celestia-core/crypto"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
 )
 
 var _ crypto.PrivKey = PrivKey{}

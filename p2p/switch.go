@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/cmap"
-	"github.com/celestiaorg/celestia-core/libs/rand"
-	"github.com/celestiaorg/celestia-core/libs/service"
-	"github.com/celestiaorg/celestia-core/p2p/conn"
+	"github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/cmap"
+	"github.com/badrootd/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/libs/service"
+	"github.com/badrootd/celestia-core/p2p/conn"
 	"github.com/gogo/protobuf/proto"
 )
 

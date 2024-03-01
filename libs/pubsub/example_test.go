@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/log"
 
-	"github.com/celestiaorg/celestia-core/libs/pubsub"
-	"github.com/celestiaorg/celestia-core/libs/pubsub/query"
+	"github.com/badrootd/celestia-core/libs/pubsub"
+	"github.com/badrootd/celestia-core/libs/pubsub/query"
 )
 
 func TestExample(t *testing.T) {

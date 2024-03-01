@@ -8,9 +8,9 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/celestiaorg/celestia-core/abci/example/code"
-	"github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/abci/example/code"
+	"github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/version"
 )
 
 var (

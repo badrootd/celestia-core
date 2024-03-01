@@ -7,16 +7,16 @@ import (
 	"fmt"
 	"time"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	"github.com/celestiaorg/celestia-core/light"
-	"github.com/celestiaorg/celestia-core/p2p"
-	ssproto "github.com/celestiaorg/celestia-core/proto/tendermint/statesync"
-	"github.com/celestiaorg/celestia-core/proxy"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/light"
+	"github.com/badrootd/celestia-core/p2p"
+	ssproto "github.com/badrootd/celestia-core/proto/tendermint/statesync"
+	"github.com/badrootd/celestia-core/proxy"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 const (

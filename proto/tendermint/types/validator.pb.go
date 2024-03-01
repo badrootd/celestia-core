@@ -5,7 +5,7 @@ package types
 
 import (
 	fmt "fmt"
-	crypto "github.com/celestiaorg/celestia-core/proto/tendermint/crypto"
+	crypto "github.com/badrootd/celestia-core/proto/tendermint/crypto"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"

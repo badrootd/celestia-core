@@ -6,7 +6,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"github.com/celestiaorg/celestia-core/test/e2e/app"
+	"github.com/badrootd/celestia-core/test/e2e/app"
 )
 
 // Config is the application configuration.

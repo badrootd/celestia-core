@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	ce "github.com/celestiaorg/celestia-core/crypto/encoding"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/crypto"
+	ce "github.com/badrootd/celestia-core/crypto/encoding"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
 )
 
 // Volatile state for each Validator

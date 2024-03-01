@@ -1,7 +1,7 @@
 package version
 
 import (
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/version"
 )
 
 // TODO: eliminate this after some version refactor

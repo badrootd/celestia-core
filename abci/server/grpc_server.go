@@ -5,9 +5,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/celestiaorg/celestia-core/abci/types"
-	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
-	"github.com/celestiaorg/celestia-core/libs/service"
+	"github.com/badrootd/celestia-core/abci/types"
+	cmtnet "github.com/badrootd/celestia-core/libs/net"
+	"github.com/badrootd/celestia-core/libs/service"
 )
 
 type GRPCServer struct {

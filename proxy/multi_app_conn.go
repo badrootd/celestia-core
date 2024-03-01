@@ -3,10 +3,10 @@ package proxy
 import (
 	"fmt"
 
-	abcicli "github.com/celestiaorg/celestia-core/abci/client"
-	cmtlog "github.com/celestiaorg/celestia-core/libs/log"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	"github.com/celestiaorg/celestia-core/libs/service"
+	abcicli "github.com/badrootd/celestia-core/abci/client"
+	cmtlog "github.com/badrootd/celestia-core/libs/log"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	"github.com/badrootd/celestia-core/libs/service"
 )
 
 const (

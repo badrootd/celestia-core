@@ -3,7 +3,7 @@ package cat
 import (
 	"time"
 
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // wrappedTx defines a wrapper around a raw transaction with additional metadata

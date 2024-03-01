@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/p2p/conn"
+	"github.com/badrootd/celestia-core/p2p/conn"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/light/provider"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/light/provider"
+	"github.com/badrootd/celestia-core/types"
 )
 
 type Mock struct {

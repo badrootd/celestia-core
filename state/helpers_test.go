@@ -7,17 +7,17 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/proxy"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/test/factory"
-	"github.com/celestiaorg/celestia-core/types"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtstate "github.com/badrootd/celestia-core/proto/tendermint/state"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/proxy"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/test/factory"
+	"github.com/badrootd/celestia-core/types"
+	cmttime "github.com/badrootd/celestia-core/types/time"
 )
 
 type paramsChangeTestCase struct {

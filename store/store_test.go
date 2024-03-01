@@ -14,17 +14,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtstore "github.com/celestiaorg/celestia-core/proto/tendermint/store"
-	cmtversion "github.com/celestiaorg/celestia-core/proto/tendermint/version"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/test/factory"
-	"github.com/celestiaorg/celestia-core/types"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
-	"github.com/celestiaorg/celestia-core/version"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtstore "github.com/badrootd/celestia-core/proto/tendermint/store"
+	cmtversion "github.com/badrootd/celestia-core/proto/tendermint/version"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/test/factory"
+	"github.com/badrootd/celestia-core/types"
+	cmttime "github.com/badrootd/celestia-core/types/time"
+	"github.com/badrootd/celestia-core/version"
 )
 
 // A cleanupFunc cleans up any config / test files created for a particular

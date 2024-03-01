@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"sync"
 
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
 )
 
 // MaxLength is the max allowed number of elements a linked list is

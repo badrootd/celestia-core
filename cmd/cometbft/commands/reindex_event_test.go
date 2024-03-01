@@ -11,13 +11,13 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	abcitypes "github.com/celestiaorg/celestia-core/abci/types"
-	cmtcfg "github.com/celestiaorg/celestia-core/config"
-	protocmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
-	blockmocks "github.com/celestiaorg/celestia-core/state/indexer/mocks"
-	"github.com/celestiaorg/celestia-core/state/mocks"
-	txmocks "github.com/celestiaorg/celestia-core/state/txindex/mocks"
-	"github.com/celestiaorg/celestia-core/types"
+	abcitypes "github.com/badrootd/celestia-core/abci/types"
+	cmtcfg "github.com/badrootd/celestia-core/config"
+	protocmtstate "github.com/badrootd/celestia-core/proto/tendermint/state"
+	blockmocks "github.com/badrootd/celestia-core/state/indexer/mocks"
+	"github.com/badrootd/celestia-core/state/mocks"
+	txmocks "github.com/badrootd/celestia-core/state/txindex/mocks"
+	"github.com/badrootd/celestia-core/types"
 )
 
 const (

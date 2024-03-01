@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/types"
 	"github.com/fortytw2/leaktest"
 	"github.com/stretchr/testify/require"
 )

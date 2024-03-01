@@ -1,10 +1,10 @@
 package schema
 
 import (
-	"github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/pkg/trace"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/pkg/trace"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // MempoolTables returns the list of tables for mempool tracing.

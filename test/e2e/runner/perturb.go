@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
+	"github.com/badrootd/celestia-core/libs/log"
+	rpctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	e2e "github.com/badrootd/celestia-core/test/e2e/pkg"
 )
 
 // Perturbs a running testnet.

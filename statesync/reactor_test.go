@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/p2p"
-	p2pmocks "github.com/celestiaorg/celestia-core/p2p/mocks"
-	ssproto "github.com/celestiaorg/celestia-core/proto/tendermint/statesync"
-	proxymocks "github.com/celestiaorg/celestia-core/proxy/mocks"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/p2p"
+	p2pmocks "github.com/badrootd/celestia-core/p2p/mocks"
+	ssproto "github.com/badrootd/celestia-core/proto/tendermint/statesync"
+	proxymocks "github.com/badrootd/celestia-core/proxy/mocks"
 )
 
 func TestReactor_Receive_ChunkRequest(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/pubsub/query"
-	"github.com/celestiaorg/celestia-core/state/txindex"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/pubsub/query"
+	"github.com/badrootd/celestia-core/state/txindex"
 )
 
 var _ txindex.TxIndexer = (*TxIndex)(nil)

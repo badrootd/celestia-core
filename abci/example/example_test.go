@@ -16,14 +16,14 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtnet "github.com/badrootd/celestia-core/libs/net"
 
-	abcicli "github.com/celestiaorg/celestia-core/abci/client"
-	"github.com/celestiaorg/celestia-core/abci/example/code"
-	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
-	abciserver "github.com/celestiaorg/celestia-core/abci/server"
-	"github.com/celestiaorg/celestia-core/abci/types"
+	abcicli "github.com/badrootd/celestia-core/abci/client"
+	"github.com/badrootd/celestia-core/abci/example/code"
+	"github.com/badrootd/celestia-core/abci/example/kvstore"
+	abciserver "github.com/badrootd/celestia-core/abci/server"
+	"github.com/badrootd/celestia-core/abci/types"
 )
 
 var grand *rand.Rand

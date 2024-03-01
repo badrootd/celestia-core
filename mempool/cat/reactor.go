@@ -7,15 +7,15 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/mempool"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/pkg/trace"
-	"github.com/celestiaorg/celestia-core/pkg/trace/schema"
-	protomem "github.com/celestiaorg/celestia-core/proto/tendermint/mempool"
-	"github.com/celestiaorg/celestia-core/types"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/mempool"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/pkg/trace"
+	"github.com/badrootd/celestia-core/pkg/trace/schema"
+	protomem "github.com/badrootd/celestia-core/proto/tendermint/mempool"
+	"github.com/badrootd/celestia-core/types"
 )
 
 const (

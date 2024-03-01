@@ -8,13 +8,13 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/celestiaorg/celestia-core/libs/cmap"
-	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	"github.com/celestiaorg/celestia-core/libs/service"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/p2p/conn"
-	tmp2p "github.com/celestiaorg/celestia-core/proto/tendermint/p2p"
+	"github.com/badrootd/celestia-core/libs/cmap"
+	cmtmath "github.com/badrootd/celestia-core/libs/math"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/libs/service"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/p2p/conn"
+	tmp2p "github.com/badrootd/celestia-core/proto/tendermint/p2p"
 )
 
 type Peer = p2p.Peer

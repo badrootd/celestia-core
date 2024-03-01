@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
 )
 
 const (

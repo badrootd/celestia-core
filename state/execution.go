@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	cryptoenc "github.com/celestiaorg/celestia-core/crypto/encoding"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	"github.com/celestiaorg/celestia-core/libs/fail"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	mempl "github.com/celestiaorg/celestia-core/mempool"
-	cmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/proxy"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	cryptoenc "github.com/badrootd/celestia-core/crypto/encoding"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/libs/fail"
+	"github.com/badrootd/celestia-core/libs/log"
+	mempl "github.com/badrootd/celestia-core/mempool"
+	cmtstate "github.com/badrootd/celestia-core/proto/tendermint/state"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/proxy"
+	"github.com/badrootd/celestia-core/types"
 )
 
 //-----------------------------------------------------------------------------

@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
 )
 
 func TestABCIResults(t *testing.T) {

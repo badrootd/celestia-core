@@ -4,9 +4,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/config"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/config"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
 )
 
 // FuzzedConnection wraps any net.Conn and depending on the mode either delays

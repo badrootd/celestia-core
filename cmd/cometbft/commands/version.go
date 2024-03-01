@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/version"
 )
 
 // VersionCmd ...

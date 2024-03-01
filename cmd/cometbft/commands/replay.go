@@ -3,7 +3,7 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/celestiaorg/celestia-core/consensus"
+	"github.com/badrootd/celestia-core/consensus"
 )
 
 // ReplayCmd allows replaying of messages from the WAL.

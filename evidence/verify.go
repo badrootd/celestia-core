@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/light"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/light"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // verify verifies the evidence fully by checking:

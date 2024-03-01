@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtnet "github.com/badrootd/celestia-core/libs/net"
 )
 
 // IsConnTimeout returns a boolean indicating whether the error is known to

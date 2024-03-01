@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
+	"github.com/badrootd/celestia-core/libs/log"
+	e2e "github.com/badrootd/celestia-core/test/e2e/pkg"
 )
 
 // Cleanup removes the Docker Compose containers and testnet directory.

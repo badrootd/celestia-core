@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // ErrOldHeaderExpired means the old (trusted) header has expired according to

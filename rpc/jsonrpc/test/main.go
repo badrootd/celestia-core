@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	rpcserver "github.com/celestiaorg/celestia-core/rpc/jsonrpc/server"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	rpcserver "github.com/badrootd/celestia-core/rpc/jsonrpc/server"
+	rpctypes "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
 )
 
 var routes = map[string]*rpcserver.RPCFunc{

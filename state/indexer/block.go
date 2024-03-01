@@ -3,8 +3,8 @@ package indexer
 import (
 	"context"
 
-	"github.com/celestiaorg/celestia-core/libs/pubsub/query"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/pubsub/query"
+	"github.com/badrootd/celestia-core/types"
 )
 
 //go:generate ../../scripts/mockery_generate.sh BlockIndexer

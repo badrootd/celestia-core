@@ -3,13 +3,13 @@ package pex
 import (
 	"net"
 
-	"github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/libs/service"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/p2p/pex"
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/service"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/p2p/pex"
+	"github.com/badrootd/celestia-core/version"
 )
 
 var (

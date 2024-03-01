@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	abcicli "github.com/celestiaorg/celestia-core/abci/client"
-	"github.com/celestiaorg/celestia-core/abci/types"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	abcicli "github.com/badrootd/celestia-core/abci/client"
+	"github.com/badrootd/celestia-core/abci/types"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
 )
 
 func InitChain(client abcicli.Client) error {

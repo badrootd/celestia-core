@@ -12,18 +12,18 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
-	"github.com/celestiaorg/celestia-core/p2p/mock"
-	"github.com/celestiaorg/celestia-core/pkg/trace"
+	"github.com/badrootd/celestia-core/abci/example/kvstore"
+	"github.com/badrootd/celestia-core/p2p/mock"
+	"github.com/badrootd/celestia-core/pkg/trace"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
+	cfg "github.com/badrootd/celestia-core/config"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/mempool"
-	"github.com/celestiaorg/celestia-core/p2p"
-	memproto "github.com/celestiaorg/celestia-core/proto/tendermint/mempool"
-	"github.com/celestiaorg/celestia-core/proxy"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/mempool"
+	"github.com/badrootd/celestia-core/p2p"
+	memproto "github.com/badrootd/celestia-core/proto/tendermint/mempool"
+	"github.com/badrootd/celestia-core/proxy"
+	"github.com/badrootd/celestia-core/types"
 )
 
 const (

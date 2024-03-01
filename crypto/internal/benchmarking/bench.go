@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/celestiaorg/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto"
 )
 
 // The code in this file is adapted from agl/ed25519.

@@ -8,11 +8,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/pkg/trace"
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
-	"github.com/celestiaorg/celestia-core/test/e2e/pkg/infra"
-	"github.com/celestiaorg/celestia-core/test/e2e/pkg/infra/docker"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/pkg/trace"
+	e2e "github.com/badrootd/celestia-core/test/e2e/pkg"
+	"github.com/badrootd/celestia-core/test/e2e/pkg/infra"
+	"github.com/badrootd/celestia-core/test/e2e/pkg/infra/docker"
 )
 
 var (

@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	cmtmath "github.com/badrootd/celestia-core/libs/math"
 )
 
 var (

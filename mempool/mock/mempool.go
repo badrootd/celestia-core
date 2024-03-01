@@ -1,10 +1,10 @@
 package mock
 
 import (
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/clist"
-	"github.com/celestiaorg/celestia-core/mempool"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/clist"
+	"github.com/badrootd/celestia-core/mempool"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // Mempool is an empty implementation of a Mempool, useful for testing.

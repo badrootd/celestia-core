@@ -7,10 +7,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/cli"
-	cmtflags "github.com/celestiaorg/celestia-core/libs/cli/flags"
-	"github.com/celestiaorg/celestia-core/libs/log"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/cli"
+	cmtflags "github.com/badrootd/celestia-core/libs/cli/flags"
+	"github.com/badrootd/celestia-core/libs/log"
 )
 
 var (

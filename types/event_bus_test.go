@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	cmtpubsub "github.com/celestiaorg/celestia-core/libs/pubsub"
-	cmtquery "github.com/celestiaorg/celestia-core/libs/pubsub/query"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	cmtpubsub "github.com/badrootd/celestia-core/libs/pubsub"
+	cmtquery "github.com/badrootd/celestia-core/libs/pubsub/query"
 )
 
 func TestEventBusPublishEventTx(t *testing.T) {

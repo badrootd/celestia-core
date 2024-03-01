@@ -8,7 +8,7 @@ import (
 
 	asrt "github.com/stretchr/testify/assert"
 
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
 )
 
 type thCounter struct {

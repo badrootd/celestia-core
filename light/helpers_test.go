@@ -3,14 +3,14 @@ package light_test
 import (
 	"time"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	cmtversion "github.com/celestiaorg/celestia-core/proto/tendermint/version"
-	"github.com/celestiaorg/celestia-core/types"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	cmtversion "github.com/badrootd/celestia-core/proto/tendermint/version"
+	"github.com/badrootd/celestia-core/types"
+	cmttime "github.com/badrootd/celestia-core/types/time"
+	"github.com/badrootd/celestia-core/version"
 )
 
 // privKeys is a helper type for testing.

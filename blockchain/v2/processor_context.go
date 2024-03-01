@@ -3,8 +3,8 @@ package v2
 import (
 	"fmt"
 
-	"github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 type processorContext interface {

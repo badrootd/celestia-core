@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/celestiaorg/celestia-core/abci/example/code"
-	"github.com/celestiaorg/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/abci/example/code"
+	"github.com/badrootd/celestia-core/abci/types"
 )
 
 type Application struct {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/celestiaorg/celestia-core/abci/types"
-	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
+	"github.com/badrootd/celestia-core/abci/types"
+	cmtnet "github.com/badrootd/celestia-core/libs/net"
 )
 
 func main() {

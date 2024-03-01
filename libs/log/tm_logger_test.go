@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/log"
 )
 
 func TestLoggerLogsItsErrors(t *testing.T) {

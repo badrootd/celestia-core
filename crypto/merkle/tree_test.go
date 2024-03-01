@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	. "github.com/celestiaorg/celestia-core/libs/test"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	. "github.com/badrootd/celestia-core/libs/test"
 
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
 )
 
 type testItem []byte

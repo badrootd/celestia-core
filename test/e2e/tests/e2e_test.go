@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	rpchttp "github.com/celestiaorg/celestia-core/rpc/client/http"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
-	"github.com/celestiaorg/celestia-core/types"
+	rpchttp "github.com/badrootd/celestia-core/rpc/client/http"
+	rpctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	e2e "github.com/badrootd/celestia-core/test/e2e/pkg"
+	"github.com/badrootd/celestia-core/types"
 )
 
 func init() {

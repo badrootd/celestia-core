@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
 )
 
 // BlockMeta contains meta information.

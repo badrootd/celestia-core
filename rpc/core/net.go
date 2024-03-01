@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/celestiaorg/celestia-core/p2p"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	"github.com/badrootd/celestia-core/p2p"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	rpctypes "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
 )
 
 // NetInfo returns network info.

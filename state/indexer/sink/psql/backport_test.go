@@ -1,8 +1,8 @@
 package psql
 
 import (
-	"github.com/celestiaorg/celestia-core/state/indexer"
-	"github.com/celestiaorg/celestia-core/state/txindex"
+	"github.com/badrootd/celestia-core/state/indexer"
+	"github.com/badrootd/celestia-core/state/txindex"
 )
 
 var (

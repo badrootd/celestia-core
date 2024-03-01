@@ -1,7 +1,7 @@
 package merkle
 
 import (
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
 )
 
 // TODO: make these have a large predefined capacity

@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/version"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/version"
 )
 
 // RequestInfo contains all the information for sending

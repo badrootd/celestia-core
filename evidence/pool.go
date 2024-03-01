@@ -12,11 +12,11 @@ import (
 	"github.com/gogo/protobuf/proto"
 	gogotypes "github.com/gogo/protobuf/types"
 
-	clist "github.com/celestiaorg/celestia-core/libs/clist"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
+	clist "github.com/badrootd/celestia-core/libs/clist"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 const (

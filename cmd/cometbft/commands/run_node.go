@@ -9,10 +9,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	nm "github.com/celestiaorg/celestia-core/node"
-	"github.com/celestiaorg/celestia-core/pkg/trace"
+	cfg "github.com/badrootd/celestia-core/config"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	nm "github.com/badrootd/celestia-core/node"
+	"github.com/badrootd/celestia-core/pkg/trace"
 )
 
 var (

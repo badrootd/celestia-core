@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
-	"github.com/celestiaorg/celestia-core/p2p"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/p2p"
 )
 
 // errDone is returned by chunkQueue.Next() when all chunks have been returned.

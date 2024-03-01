@@ -8,11 +8,11 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/celestiaorg/celestia-core/abci/types"
-	cmtlog "github.com/celestiaorg/celestia-core/libs/log"
-	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
-	"github.com/celestiaorg/celestia-core/libs/service"
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	"github.com/badrootd/celestia-core/abci/types"
+	cmtlog "github.com/badrootd/celestia-core/libs/log"
+	cmtnet "github.com/badrootd/celestia-core/libs/net"
+	"github.com/badrootd/celestia-core/libs/service"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
 )
 
 // var maxNumberConnections = 2

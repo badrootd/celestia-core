@@ -1,7 +1,7 @@
 package test
 
 import (
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
 )
 
 // Contract: !bytes.Equal(input, output) && len(input) >= len(output)

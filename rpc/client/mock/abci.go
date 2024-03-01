@@ -3,12 +3,12 @@ package mock
 import (
 	"context"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/proxy"
-	"github.com/celestiaorg/celestia-core/rpc/client"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/proxy"
+	"github.com/badrootd/celestia-core/rpc/client"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // ABCIApp will send all abci related request to the named app,

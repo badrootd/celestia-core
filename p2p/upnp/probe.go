@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/log"
 )
 
 type Capabilities struct {

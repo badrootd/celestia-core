@@ -3,8 +3,8 @@ package indexer
 import (
 	"time"
 
-	"github.com/celestiaorg/celestia-core/libs/pubsub/query"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/pubsub/query"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // QueryRanges defines a mapping between a composite event key and a QueryRange.

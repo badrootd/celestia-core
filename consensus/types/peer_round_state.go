@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/libs/bits"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/libs/bits"
+	"github.com/badrootd/celestia-core/types"
 )
 
 //-----------------------------------------------------------------------------

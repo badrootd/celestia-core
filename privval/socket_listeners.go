@@ -4,8 +4,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/crypto/ed25519"
-	p2pconn "github.com/celestiaorg/celestia-core/p2p/conn"
+	"github.com/badrootd/celestia-core/crypto/ed25519"
+	p2pconn "github.com/badrootd/celestia-core/p2p/conn"
 )
 
 const (

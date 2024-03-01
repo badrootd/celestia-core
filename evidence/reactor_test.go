@@ -16,17 +16,17 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	"github.com/celestiaorg/celestia-core/evidence"
-	"github.com/celestiaorg/celestia-core/evidence/mocks"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/p2p"
-	p2pmocks "github.com/celestiaorg/celestia-core/p2p/mocks"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	sm "github.com/celestiaorg/celestia-core/state"
-	"github.com/celestiaorg/celestia-core/types"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/evidence"
+	"github.com/badrootd/celestia-core/evidence/mocks"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/p2p"
+	p2pmocks "github.com/badrootd/celestia-core/p2p/mocks"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	sm "github.com/badrootd/celestia-core/state"
+	"github.com/badrootd/celestia-core/types"
 )
 
 var (

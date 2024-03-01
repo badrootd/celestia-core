@@ -4,11 +4,11 @@ import (
 	"os"
 	"path/filepath"
 
-	cmd "github.com/celestiaorg/celestia-core/cmd/cometbft/commands"
-	"github.com/celestiaorg/celestia-core/cmd/cometbft/commands/debug"
-	cfg "github.com/celestiaorg/celestia-core/config"
-	"github.com/celestiaorg/celestia-core/libs/cli"
-	nm "github.com/celestiaorg/celestia-core/node"
+	cmd "github.com/badrootd/celestia-core/cmd/cometbft/commands"
+	"github.com/badrootd/celestia-core/cmd/cometbft/commands/debug"
+	cfg "github.com/badrootd/celestia-core/config"
+	"github.com/badrootd/celestia-core/libs/cli"
+	nm "github.com/badrootd/celestia-core/node"
 )
 
 func main() {

@@ -6,12 +6,12 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtpubsub "github.com/celestiaorg/celestia-core/libs/pubsub"
-	"github.com/celestiaorg/celestia-core/light"
-	lrpc "github.com/celestiaorg/celestia-core/light/rpc"
-	rpchttp "github.com/celestiaorg/celestia-core/rpc/client/http"
-	rpcserver "github.com/celestiaorg/celestia-core/rpc/jsonrpc/server"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtpubsub "github.com/badrootd/celestia-core/libs/pubsub"
+	"github.com/badrootd/celestia-core/light"
+	lrpc "github.com/badrootd/celestia-core/light/rpc"
+	rpchttp "github.com/badrootd/celestia-core/rpc/client/http"
+	rpcserver "github.com/badrootd/celestia-core/rpc/jsonrpc/server"
 )
 
 // A Proxy defines parameters for running an HTTP server proxy.

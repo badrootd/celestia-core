@@ -10,17 +10,17 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/celestiaorg/celestia-core/crypto"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	"github.com/celestiaorg/celestia-core/evidence"
-	"github.com/celestiaorg/celestia-core/evidence/mocks"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	cmtversion "github.com/celestiaorg/celestia-core/proto/tendermint/version"
-	sm "github.com/celestiaorg/celestia-core/state"
-	smmocks "github.com/celestiaorg/celestia-core/state/mocks"
-	"github.com/celestiaorg/celestia-core/types"
-	"github.com/celestiaorg/celestia-core/version"
+	"github.com/badrootd/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/evidence"
+	"github.com/badrootd/celestia-core/evidence/mocks"
+	"github.com/badrootd/celestia-core/libs/log"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	cmtversion "github.com/badrootd/celestia-core/proto/tendermint/version"
+	sm "github.com/badrootd/celestia-core/state"
+	smmocks "github.com/badrootd/celestia-core/state/mocks"
+	"github.com/badrootd/celestia-core/types"
+	"github.com/badrootd/celestia-core/version"
 )
 
 const (

@@ -3,7 +3,7 @@ package types
 import (
 	"context"
 
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
 )
 
 // Application is an interface that enables any finite, deterministic state machine

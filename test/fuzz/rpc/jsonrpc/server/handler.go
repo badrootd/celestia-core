@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
-	rs "github.com/celestiaorg/celestia-core/rpc/jsonrpc/server"
-	types "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	"github.com/badrootd/celestia-core/libs/log"
+	rs "github.com/badrootd/celestia-core/rpc/jsonrpc/server"
+	types "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
 )
 
 var rpcFuncMap = map[string]*rs.RPCFunc{

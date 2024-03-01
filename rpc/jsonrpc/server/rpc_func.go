@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/libs/log"
 )
 
 // RegisterRPCFuncs adds a route for each function in the funcMap, as well as

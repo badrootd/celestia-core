@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/celestiaorg/celestia-core/libs/pubsub/query"
+	"github.com/badrootd/celestia-core/libs/pubsub/query"
 )
 
 // TODO: fuzzy testing?

@@ -7,12 +7,12 @@ import (
 	dbm "github.com/cometbft/cometbft-db"
 	"github.com/gogo/protobuf/proto"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
-	cmtos "github.com/celestiaorg/celestia-core/libs/os"
-	cmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	"github.com/celestiaorg/celestia-core/types"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	cmtmath "github.com/badrootd/celestia-core/libs/math"
+	cmtos "github.com/badrootd/celestia-core/libs/os"
+	cmtstate "github.com/badrootd/celestia-core/proto/tendermint/state"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/types"
 )
 
 const (

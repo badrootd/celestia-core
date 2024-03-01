@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
 )
 
 // TrustOptions are the trust parameters needed when a new light client

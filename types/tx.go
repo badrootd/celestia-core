@@ -6,11 +6,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/celestiaorg/celestia-core/crypto/merkle"
-	"github.com/celestiaorg/celestia-core/crypto/tmhash"
-	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/pkg/consts"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	"github.com/badrootd/celestia-core/crypto/merkle"
+	"github.com/badrootd/celestia-core/crypto/tmhash"
+	cmtbytes "github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/pkg/consts"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
 	"github.com/gogo/protobuf/proto"
 )
 

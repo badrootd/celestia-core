@@ -5,10 +5,10 @@ import (
 	"math"
 	"time"
 
-	flow "github.com/celestiaorg/celestia-core/libs/flowrate"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	"github.com/celestiaorg/celestia-core/p2p"
-	"github.com/celestiaorg/celestia-core/types"
+	flow "github.com/badrootd/celestia-core/libs/flowrate"
+	"github.com/badrootd/celestia-core/libs/log"
+	"github.com/badrootd/celestia-core/p2p"
+	"github.com/badrootd/celestia-core/types"
 )
 
 //--------

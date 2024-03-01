@@ -3,10 +3,10 @@ package types
 import (
 	"fmt"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	cmtpubsub "github.com/celestiaorg/celestia-core/libs/pubsub"
-	cmtquery "github.com/celestiaorg/celestia-core/libs/pubsub/query"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	cmtpubsub "github.com/badrootd/celestia-core/libs/pubsub"
+	cmtquery "github.com/badrootd/celestia-core/libs/pubsub/query"
 )
 
 // Reserved event types (alphabetically sorted).

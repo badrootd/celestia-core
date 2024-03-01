@@ -3,7 +3,7 @@ package p2p
 import (
 	"net"
 
-	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	cmtsync "github.com/badrootd/celestia-core/libs/sync"
 )
 
 // IPeerSet has a (immutable) subset of the methods of PeerSet.

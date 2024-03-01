@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	"github.com/celestiaorg/celestia-core/libs/pubsub/query"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	"github.com/badrootd/celestia-core/libs/pubsub/query"
 )
 
 // XXX/TODO: These types should be moved to the indexer package.

@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
-	"github.com/celestiaorg/celestia-core/libs/log"
-	types "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	cmtjson "github.com/badrootd/celestia-core/libs/json"
+	"github.com/badrootd/celestia-core/libs/log"
+	types "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
 )
 
 // HTTP + URI handler

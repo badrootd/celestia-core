@@ -8,8 +8,8 @@ import (
 	"github.com/gofrs/uuid"
 	"gonum.org/v1/gonum/stat"
 
-	"github.com/celestiaorg/celestia-core/test/loadtime/payload"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/test/loadtime/payload"
+	"github.com/badrootd/celestia-core/types"
 )
 
 // BlockStore defines the set of methods needed by the report generator from

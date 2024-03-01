@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
-	"github.com/celestiaorg/celestia-core/libs/protoio"
-	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
-	cmttime "github.com/celestiaorg/celestia-core/types/time"
+	cmtbytes "github.com/badrootd/celestia-core/libs/bytes"
+	"github.com/badrootd/celestia-core/libs/protoio"
+	cmtproto "github.com/badrootd/celestia-core/proto/tendermint/types"
+	cmttime "github.com/badrootd/celestia-core/types/time"
 )
 
 var (

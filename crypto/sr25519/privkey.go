@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/celestiaorg/celestia-core/crypto"
+	"github.com/badrootd/celestia-core/crypto"
 
 	schnorrkel "github.com/ChainSafe/go-schnorrkel"
 )

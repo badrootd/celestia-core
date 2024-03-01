@@ -10,16 +10,16 @@ import (
 	"github.com/stretchr/testify/require"
 
 	dbm "github.com/cometbft/cometbft-db"
-	"github.com/celestiaorg/celestia-core/crypto/merkle"
-	"github.com/celestiaorg/celestia-core/libs/pubsub/query"
-	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
-	"github.com/celestiaorg/celestia-core/types"
+	"github.com/badrootd/celestia-core/crypto/merkle"
+	"github.com/badrootd/celestia-core/libs/pubsub/query"
+	cmtrand "github.com/badrootd/celestia-core/libs/rand"
+	"github.com/badrootd/celestia-core/types"
 
-	abci "github.com/celestiaorg/celestia-core/abci/types"
-	cmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
-	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
-	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
-	sm "github.com/celestiaorg/celestia-core/state"
+	abci "github.com/badrootd/celestia-core/abci/types"
+	cmtstate "github.com/badrootd/celestia-core/proto/tendermint/state"
+	ctypes "github.com/badrootd/celestia-core/rpc/core/types"
+	rpctypes "github.com/badrootd/celestia-core/rpc/jsonrpc/types"
+	sm "github.com/badrootd/celestia-core/state"
 )
 
 func TestBlockchainInfo(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	bh "github.com/celestiaorg/celestia-core/behaviour"
-	"github.com/celestiaorg/celestia-core/p2p"
+	bh "github.com/badrootd/celestia-core/behaviour"
+	"github.com/badrootd/celestia-core/p2p"
 )
 
 // TestMockReporter tests the MockReporter's ability to store reported
