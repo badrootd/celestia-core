@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	privvalproto "github.com/cometbft/cometbft/proto/tendermint/privval"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/crypto"
+	cryptoenc "github.com/celestiaorg/celestia-core/crypto/encoding"
+	privvalproto "github.com/celestiaorg/celestia-core/proto/tendermint/privval"
+	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // SignerClient implements PrivValidator.

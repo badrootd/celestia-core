@@ -9,19 +9,19 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	cmtcon "github.com/cometbft/cometbft/consensus"
-	cstypes "github.com/cometbft/cometbft/consensus/types"
-	"github.com/cometbft/cometbft/libs/bits"
-	cmtevents "github.com/cometbft/cometbft/libs/events"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/p2p"
-	cmtcons "github.com/cometbft/cometbft/proto/tendermint/consensus"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
+	cmtcon "github.com/celestiaorg/celestia-core/consensus"
+	cstypes "github.com/celestiaorg/celestia-core/consensus/types"
+	"github.com/celestiaorg/celestia-core/libs/bits"
+	cmtevents "github.com/celestiaorg/celestia-core/libs/events"
+	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	"github.com/celestiaorg/celestia-core/p2p"
+	cmtcons "github.com/celestiaorg/celestia-core/proto/tendermint/consensus"
+	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	sm "github.com/celestiaorg/celestia-core/state"
+	"github.com/celestiaorg/celestia-core/types"
+	cmttime "github.com/celestiaorg/celestia-core/types/time"
 )
 
 const (

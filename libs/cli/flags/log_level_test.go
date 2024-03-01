@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	cmtflags "github.com/cometbft/cometbft/libs/cli/flags"
-	"github.com/cometbft/cometbft/libs/log"
+	cmtflags "github.com/celestiaorg/celestia-core/libs/cli/flags"
+	"github.com/celestiaorg/celestia-core/libs/log"
 )
 
 const (

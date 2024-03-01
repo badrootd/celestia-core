@@ -38,8 +38,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
+	"github.com/celestiaorg/celestia-core/libs/service"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
 )
 
 type operation int

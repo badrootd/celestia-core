@@ -5,12 +5,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	cmtos "github.com/cometbft/cometbft/libs/os"
+	"github.com/celestiaorg/celestia-core/crypto/ed25519"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
+	cmtos "github.com/celestiaorg/celestia-core/libs/os"
 
-	"github.com/cometbft/cometbft/privval"
+	"github.com/celestiaorg/celestia-core/privval"
 )
 
 func main() {

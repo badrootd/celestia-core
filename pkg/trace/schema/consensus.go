@@ -1,10 +1,10 @@
 package schema
 
 import (
-	cstypes "github.com/cometbft/cometbft/consensus/types"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/pkg/trace"
-	"github.com/cometbft/cometbft/types"
+	cstypes "github.com/celestiaorg/celestia-core/consensus/types"
+	"github.com/celestiaorg/celestia-core/p2p"
+	"github.com/celestiaorg/celestia-core/pkg/trace"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // ConsensusTables returns the list of tables that are used for consensus

@@ -6,9 +6,9 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/cometbft/cometbft/p2p"
-	bcproto "github.com/cometbft/cometbft/proto/tendermint/blockchain"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/p2p"
+	bcproto "github.com/celestiaorg/celestia-core/proto/tendermint/blockchain"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 const (

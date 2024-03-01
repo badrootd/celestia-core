@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cometbft/cometbft/crypto/merkle"
-	"github.com/cometbft/cometbft/libs/bits"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	"github.com/celestiaorg/celestia-core/crypto/merkle"
+	"github.com/celestiaorg/celestia-core/libs/bits"
+	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
+	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
 )
 
 var (

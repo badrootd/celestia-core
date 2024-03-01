@@ -5,7 +5,7 @@ package blockchain
 
 import (
 	fmt "fmt"
-	types "github.com/cometbft/cometbft/proto/tendermint/types"
+	types "github.com/celestiaorg/celestia-core/proto/tendermint/types"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
 	math "math"

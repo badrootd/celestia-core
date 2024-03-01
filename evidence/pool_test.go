@@ -11,15 +11,15 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/cometbft/cometbft/evidence"
-	"github.com/cometbft/cometbft/evidence/mocks"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	sm "github.com/cometbft/cometbft/state"
-	smmocks "github.com/cometbft/cometbft/state/mocks"
-	"github.com/cometbft/cometbft/store"
-	"github.com/cometbft/cometbft/types"
-	"github.com/cometbft/cometbft/version"
+	"github.com/celestiaorg/celestia-core/evidence"
+	"github.com/celestiaorg/celestia-core/evidence/mocks"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	cmtversion "github.com/celestiaorg/celestia-core/proto/tendermint/version"
+	sm "github.com/celestiaorg/celestia-core/state"
+	smmocks "github.com/celestiaorg/celestia-core/state/mocks"
+	"github.com/celestiaorg/celestia-core/store"
+	"github.com/celestiaorg/celestia-core/types"
+	"github.com/celestiaorg/celestia-core/version"
 )
 
 func TestMain(m *testing.M) {

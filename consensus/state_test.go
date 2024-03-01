@@ -10,15 +10,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/abci/example/counter"
-	cstypes "github.com/cometbft/cometbft/consensus/types"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtpubsub "github.com/cometbft/cometbft/libs/pubsub"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	p2pmock "github.com/cometbft/cometbft/p2p/mock"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/abci/example/counter"
+	cstypes "github.com/celestiaorg/celestia-core/consensus/types"
+	"github.com/celestiaorg/celestia-core/crypto/tmhash"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	cmtpubsub "github.com/celestiaorg/celestia-core/libs/pubsub"
+	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	p2pmock "github.com/celestiaorg/celestia-core/p2p/mock"
+	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 /*

@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtpubsub "github.com/cometbft/cometbft/libs/pubsub"
-	cmtquery "github.com/cometbft/cometbft/libs/pubsub/query"
-	nm "github.com/cometbft/cometbft/node"
-	rpcclient "github.com/cometbft/cometbft/rpc/client"
-	"github.com/cometbft/cometbft/rpc/core"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/libs/bytes"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	cmtpubsub "github.com/celestiaorg/celestia-core/libs/pubsub"
+	cmtquery "github.com/celestiaorg/celestia-core/libs/pubsub/query"
+	nm "github.com/celestiaorg/celestia-core/node"
+	rpcclient "github.com/celestiaorg/celestia-core/rpc/client"
+	"github.com/celestiaorg/celestia-core/rpc/core"
+	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
+	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 /*

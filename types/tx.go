@@ -6,11 +6,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cometbft/cometbft/crypto/merkle"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/pkg/consts"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	"github.com/celestiaorg/celestia-core/crypto/merkle"
+	"github.com/celestiaorg/celestia-core/crypto/tmhash"
+	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
+	"github.com/celestiaorg/celestia-core/pkg/consts"
+	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
 	"github.com/gogo/protobuf/proto"
 )
 

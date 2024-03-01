@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/cmap"
-	"github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/p2p/conn"
+	"github.com/celestiaorg/celestia-core/config"
+	"github.com/celestiaorg/celestia-core/libs/cmap"
+	"github.com/celestiaorg/celestia-core/libs/rand"
+	"github.com/celestiaorg/celestia-core/libs/service"
+	"github.com/celestiaorg/celestia-core/p2p/conn"
 	"github.com/gogo/protobuf/proto"
 )
 

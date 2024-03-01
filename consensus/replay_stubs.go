@@ -1,12 +1,12 @@
 package consensus
 
 import (
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/clist"
-	mempl "github.com/cometbft/cometbft/mempool"
-	cmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
-	"github.com/cometbft/cometbft/proxy"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/celestiaorg/celestia-core/abci/types"
+	"github.com/celestiaorg/celestia-core/libs/clist"
+	mempl "github.com/celestiaorg/celestia-core/mempool"
+	cmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
+	"github.com/celestiaorg/celestia-core/proxy"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 //-----------------------------------------------------------------------------

@@ -21,13 +21,13 @@ import (
 	"golang.org/x/crypto/hkdf"
 	"golang.org/x/crypto/nacl/box"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	cryptoenc "github.com/cometbft/cometbft/crypto/encoding"
-	"github.com/cometbft/cometbft/libs/async"
-	"github.com/cometbft/cometbft/libs/protoio"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
+	"github.com/celestiaorg/celestia-core/crypto"
+	"github.com/celestiaorg/celestia-core/crypto/ed25519"
+	cryptoenc "github.com/celestiaorg/celestia-core/crypto/encoding"
+	"github.com/celestiaorg/celestia-core/libs/async"
+	"github.com/celestiaorg/celestia-core/libs/protoio"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	tmp2p "github.com/celestiaorg/celestia-core/proto/tendermint/p2p"
 )
 
 // 4 + 1024 == 1028 total frame size

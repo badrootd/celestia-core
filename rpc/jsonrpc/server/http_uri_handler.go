@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	"github.com/cometbft/cometbft/libs/log"
-	types "github.com/cometbft/cometbft/rpc/jsonrpc/types"
+	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	types "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
 )
 
 // HTTP + URI handler

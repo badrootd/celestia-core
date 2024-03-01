@@ -6,9 +6,9 @@ import (
 	"io"
 	"log"
 
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/libs/async"
-	sc "github.com/cometbft/cometbft/p2p/conn"
+	"github.com/celestiaorg/celestia-core/crypto/ed25519"
+	"github.com/celestiaorg/celestia-core/libs/async"
+	sc "github.com/celestiaorg/celestia-core/p2p/conn"
 )
 
 func Fuzz(data []byte) int {

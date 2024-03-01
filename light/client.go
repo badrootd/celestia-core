@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/log"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/light/provider"
-	"github.com/cometbft/cometbft/light/store"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	"github.com/celestiaorg/celestia-core/light/provider"
+	"github.com/celestiaorg/celestia-core/light/store"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 type mode byte

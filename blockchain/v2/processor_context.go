@@ -3,8 +3,8 @@ package v2
 import (
 	"fmt"
 
-	"github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/state"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 type processorContext interface {

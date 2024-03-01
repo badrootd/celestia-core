@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	"github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/proxy"
+	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
+	"github.com/celestiaorg/celestia-core/mempool"
+	"github.com/celestiaorg/celestia-core/proxy"
 )
 
 func BenchmarkReap(b *testing.B) {

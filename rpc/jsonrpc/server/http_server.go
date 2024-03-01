@@ -15,8 +15,8 @@ import (
 
 	"golang.org/x/net/netutil"
 
-	"github.com/cometbft/cometbft/libs/log"
-	types "github.com/cometbft/cometbft/rpc/jsonrpc/types"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	types "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
 )
 
 // Config is a RPC server configuration.

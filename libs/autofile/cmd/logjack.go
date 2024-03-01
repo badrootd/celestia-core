@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	auto "github.com/cometbft/cometbft/libs/autofile"
-	cmtos "github.com/cometbft/cometbft/libs/os"
+	auto "github.com/celestiaorg/celestia-core/libs/autofile"
+	cmtos "github.com/celestiaorg/celestia-core/libs/os"
 )
 
 const Version = "0.0.1"

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/libs/protoio"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	"github.com/celestiaorg/celestia-core/crypto"
+	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
+	"github.com/celestiaorg/celestia-core/libs/protoio"
+	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
 )
 
 const (

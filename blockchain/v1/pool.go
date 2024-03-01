@@ -3,9 +3,9 @@ package v1
 import (
 	"sort"
 
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/celestiaorg/celestia-core/p2p"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // BlockPool keeps track of the fast sync peers, block requests and block responses.

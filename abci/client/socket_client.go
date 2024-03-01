@@ -10,11 +10,11 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/cometbft/cometbft/abci/types"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/libs/timer"
+	"github.com/celestiaorg/celestia-core/abci/types"
+	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
+	"github.com/celestiaorg/celestia-core/libs/service"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	"github.com/celestiaorg/celestia-core/libs/timer"
 )
 
 const (

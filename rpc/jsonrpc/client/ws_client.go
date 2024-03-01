@@ -12,11 +12,11 @@ import (
 	"github.com/gorilla/websocket"
 	metrics "github.com/rcrowley/go-metrics"
 
-	"github.com/cometbft/cometbft/libs/log"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	types "github.com/cometbft/cometbft/rpc/jsonrpc/types"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	"github.com/celestiaorg/celestia-core/libs/service"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	types "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
 )
 
 const (

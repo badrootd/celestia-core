@@ -7,15 +7,15 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/crypto/tmhash"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/pkg/trace"
-	"github.com/cometbft/cometbft/pkg/trace/schema"
-	protomem "github.com/cometbft/cometbft/proto/tendermint/mempool"
-	"github.com/cometbft/cometbft/types"
+	cfg "github.com/celestiaorg/celestia-core/config"
+	"github.com/celestiaorg/celestia-core/crypto/tmhash"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/celestiaorg/celestia-core/mempool"
+	"github.com/celestiaorg/celestia-core/p2p"
+	"github.com/celestiaorg/celestia-core/pkg/trace"
+	"github.com/celestiaorg/celestia-core/pkg/trace/schema"
+	protomem "github.com/celestiaorg/celestia-core/proto/tendermint/mempool"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 const (

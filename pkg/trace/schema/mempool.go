@@ -1,10 +1,10 @@
 package schema
 
 import (
-	"github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/pkg/trace"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/libs/bytes"
+	"github.com/celestiaorg/celestia-core/p2p"
+	"github.com/celestiaorg/celestia-core/pkg/trace"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // MempoolTables returns the list of tables for mempool tracing.

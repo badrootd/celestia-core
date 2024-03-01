@@ -7,12 +7,12 @@ import (
 	db "github.com/cometbft/cometbft-db"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/log"
-	blockidxkv "github.com/cometbft/cometbft/state/indexer/block/kv"
-	"github.com/cometbft/cometbft/state/txindex"
-	"github.com/cometbft/cometbft/state/txindex/kv"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/celestiaorg/celestia-core/abci/types"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	blockidxkv "github.com/celestiaorg/celestia-core/state/indexer/block/kv"
+	"github.com/celestiaorg/celestia-core/state/txindex"
+	"github.com/celestiaorg/celestia-core/state/txindex/kv"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 func TestIndexerServiceIndexesBlocks(t *testing.T) {

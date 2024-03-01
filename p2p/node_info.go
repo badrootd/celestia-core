@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"reflect"
 
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtstrings "github.com/cometbft/cometbft/libs/strings"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
-	"github.com/cometbft/cometbft/version"
+	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
+	cmtstrings "github.com/celestiaorg/celestia-core/libs/strings"
+	tmp2p "github.com/celestiaorg/celestia-core/proto/tendermint/p2p"
+	"github.com/celestiaorg/celestia-core/version"
 )
 
 const (

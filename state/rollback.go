@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	cmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	"github.com/cometbft/cometbft/version"
+	cmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
+	cmtversion "github.com/celestiaorg/celestia-core/proto/tendermint/version"
+	"github.com/celestiaorg/celestia-core/version"
 )
 
 // Rollback overwrites the current CometBFT state (height n) with the most

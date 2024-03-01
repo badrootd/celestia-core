@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cometbft/cometbft/mempool"
+	"github.com/celestiaorg/celestia-core/mempool"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,13 +3,13 @@ package consensus
 import (
 	"fmt"
 
-	cmtcon "github.com/cometbft/cometbft/consensus"
-	cstypes "github.com/cometbft/cometbft/consensus/types"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/p2p"
-	cmtcons "github.com/cometbft/cometbft/proto/tendermint/consensus"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	cmtcon "github.com/celestiaorg/celestia-core/consensus"
+	cstypes "github.com/celestiaorg/celestia-core/consensus/types"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/celestiaorg/celestia-core/p2p"
+	cmtcons "github.com/celestiaorg/celestia-core/proto/tendermint/consensus"
+	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // MisbehaviorList encompasses a list of all possible behaviors

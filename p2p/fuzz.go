@@ -4,9 +4,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/cometbft/cometbft/config"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
+	"github.com/celestiaorg/celestia-core/config"
+	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
 )
 
 // FuzzedConnection wraps any net.Conn and depending on the mode either delays

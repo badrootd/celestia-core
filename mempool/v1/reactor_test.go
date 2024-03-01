@@ -12,18 +12,18 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	"github.com/cometbft/cometbft/p2p/mock"
-	"github.com/cometbft/cometbft/pkg/trace"
+	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
+	"github.com/celestiaorg/celestia-core/p2p/mock"
+	"github.com/celestiaorg/celestia-core/pkg/trace"
 
-	cfg "github.com/cometbft/cometbft/config"
+	cfg "github.com/celestiaorg/celestia-core/config"
 
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/p2p"
-	memproto "github.com/cometbft/cometbft/proto/tendermint/mempool"
-	"github.com/cometbft/cometbft/proxy"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/celestiaorg/celestia-core/mempool"
+	"github.com/celestiaorg/celestia-core/p2p"
+	memproto "github.com/celestiaorg/celestia-core/proto/tendermint/mempool"
+	"github.com/celestiaorg/celestia-core/proxy"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 const (

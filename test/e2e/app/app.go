@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/cometbft/cometbft/abci/example/code"
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/version"
+	"github.com/celestiaorg/celestia-core/abci/example/code"
+	abci "github.com/celestiaorg/celestia-core/abci/types"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/celestiaorg/celestia-core/version"
 )
 
 const appVersion = 1

@@ -15,14 +15,14 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/cometbft/cometbft/libs/log"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	"github.com/cometbft/cometbft/light"
-	lproxy "github.com/cometbft/cometbft/light/proxy"
-	lrpc "github.com/cometbft/cometbft/light/rpc"
-	dbs "github.com/cometbft/cometbft/light/store/db"
-	rpcserver "github.com/cometbft/cometbft/rpc/jsonrpc/server"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
+	cmtos "github.com/celestiaorg/celestia-core/libs/os"
+	"github.com/celestiaorg/celestia-core/light"
+	lproxy "github.com/celestiaorg/celestia-core/light/proxy"
+	lrpc "github.com/celestiaorg/celestia-core/light/rpc"
+	dbs "github.com/celestiaorg/celestia-core/light/store/db"
+	rpcserver "github.com/celestiaorg/celestia-core/rpc/jsonrpc/server"
 )
 
 // LightCmd represents the base command when called without any subcommands

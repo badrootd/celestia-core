@@ -14,17 +14,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/libs/log"
-	cmtrand "github.com/cometbft/cometbft/libs/rand"
-	cmtstore "github.com/cometbft/cometbft/proto/tendermint/store"
-	cmtversion "github.com/cometbft/cometbft/proto/tendermint/version"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/test/factory"
-	"github.com/cometbft/cometbft/types"
-	cmttime "github.com/cometbft/cometbft/types/time"
-	"github.com/cometbft/cometbft/version"
+	cfg "github.com/celestiaorg/celestia-core/config"
+	"github.com/celestiaorg/celestia-core/crypto"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	cmtrand "github.com/celestiaorg/celestia-core/libs/rand"
+	cmtstore "github.com/celestiaorg/celestia-core/proto/tendermint/store"
+	cmtversion "github.com/celestiaorg/celestia-core/proto/tendermint/version"
+	sm "github.com/celestiaorg/celestia-core/state"
+	"github.com/celestiaorg/celestia-core/test/factory"
+	"github.com/celestiaorg/celestia-core/types"
+	cmttime "github.com/celestiaorg/celestia-core/types/time"
+	"github.com/celestiaorg/celestia-core/version"
 )
 
 // A cleanupFunc cleans up any config / test files created for a particular

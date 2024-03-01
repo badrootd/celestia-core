@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtos "github.com/cometbft/cometbft/libs/os"
+	"github.com/celestiaorg/celestia-core/crypto"
+	"github.com/celestiaorg/celestia-core/crypto/ed25519"
+	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	cmtos "github.com/celestiaorg/celestia-core/libs/os"
 )
 
 // ID is a hex-encoded crypto.Address

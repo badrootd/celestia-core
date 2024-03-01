@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/log"
-	rpctypes "github.com/cometbft/cometbft/rpc/core/types"
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	rpctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
+	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
 )
 
 // Perturbs a running testnet.

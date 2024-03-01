@@ -3,9 +3,9 @@ package txindex
 import (
 	"context"
 
-	"github.com/cometbft/cometbft/libs/service"
-	"github.com/cometbft/cometbft/state/indexer"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/libs/service"
+	"github.com/celestiaorg/celestia-core/state/indexer"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // XXX/TODO: These types should be moved to the indexer package.

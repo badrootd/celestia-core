@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/log"
+	"github.com/celestiaorg/celestia-core/config"
+	"github.com/celestiaorg/celestia-core/libs/log"
 	influxdb2 "github.com/influxdata/influxdb-client-go/v2"
 	"github.com/influxdata/influxdb-client-go/v2/api/write"
 )

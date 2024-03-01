@@ -8,18 +8,18 @@ import (
 
 	dbm "github.com/cometbft/cometbft-db"
 
-	"github.com/cometbft/cometbft/libs/log"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/light"
-	lightprovider "github.com/cometbft/cometbft/light/provider"
-	lighthttp "github.com/cometbft/cometbft/light/provider/http"
-	lightrpc "github.com/cometbft/cometbft/light/rpc"
-	lightdb "github.com/cometbft/cometbft/light/store/db"
-	cmtstate "github.com/cometbft/cometbft/proto/tendermint/state"
-	rpchttp "github.com/cometbft/cometbft/rpc/client/http"
-	sm "github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/types"
-	"github.com/cometbft/cometbft/version"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	"github.com/celestiaorg/celestia-core/light"
+	lightprovider "github.com/celestiaorg/celestia-core/light/provider"
+	lighthttp "github.com/celestiaorg/celestia-core/light/provider/http"
+	lightrpc "github.com/celestiaorg/celestia-core/light/rpc"
+	lightdb "github.com/celestiaorg/celestia-core/light/store/db"
+	cmtstate "github.com/celestiaorg/celestia-core/proto/tendermint/state"
+	rpchttp "github.com/celestiaorg/celestia-core/rpc/client/http"
+	sm "github.com/celestiaorg/celestia-core/state"
+	"github.com/celestiaorg/celestia-core/types"
+	"github.com/celestiaorg/celestia-core/version"
 )
 
 //go:generate ../scripts/mockery_generate.sh StateProvider

@@ -3,8 +3,8 @@ package types
 import (
 	"testing"
 
-	"github.com/cometbft/cometbft/pkg/consts"
-	"github.com/cometbft/cometbft/proto/tendermint/types"
+	"github.com/celestiaorg/celestia-core/pkg/consts"
+	"github.com/celestiaorg/celestia-core/proto/tendermint/types"
 	"github.com/stretchr/testify/assert"
 )
 

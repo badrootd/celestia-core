@@ -5,9 +5,9 @@ package state
 
 import (
 	fmt "fmt"
-	types "github.com/cometbft/cometbft/abci/types"
-	types1 "github.com/cometbft/cometbft/proto/tendermint/types"
-	version "github.com/cometbft/cometbft/proto/tendermint/version"
+	types "github.com/celestiaorg/celestia-core/abci/types"
+	types1 "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	version "github.com/celestiaorg/celestia-core/proto/tendermint/version"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	_ "github.com/gogo/protobuf/types"

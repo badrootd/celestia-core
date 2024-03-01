@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	"github.com/cometbft/cometbft/types"
+	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 var (

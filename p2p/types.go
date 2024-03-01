@@ -1,8 +1,8 @@
 package p2p
 
 import (
-	"github.com/cometbft/cometbft/p2p/conn"
-	tmp2p "github.com/cometbft/cometbft/proto/tendermint/p2p"
+	"github.com/celestiaorg/celestia-core/p2p/conn"
+	tmp2p "github.com/celestiaorg/celestia-core/proto/tendermint/p2p"
 	"github.com/gogo/protobuf/proto"
 )
 

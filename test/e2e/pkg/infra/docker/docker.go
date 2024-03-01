@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"text/template"
 
-	e2e "github.com/cometbft/cometbft/test/e2e/pkg"
-	"github.com/cometbft/cometbft/test/e2e/pkg/infra"
+	e2e "github.com/celestiaorg/celestia-core/test/e2e/pkg"
+	"github.com/celestiaorg/celestia-core/test/e2e/pkg/infra"
 )
 
 var _ infra.Provider = &Provider{}

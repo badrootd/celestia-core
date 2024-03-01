@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/crypto/secp256k1"
-	rpchttp "github.com/cometbft/cometbft/rpc/client/http"
-	mcs "github.com/cometbft/cometbft/test/maverick/consensus"
+	"github.com/celestiaorg/celestia-core/config"
+	"github.com/celestiaorg/celestia-core/crypto"
+	"github.com/celestiaorg/celestia-core/crypto/ed25519"
+	"github.com/celestiaorg/celestia-core/crypto/secp256k1"
+	rpchttp "github.com/celestiaorg/celestia-core/rpc/client/http"
+	mcs "github.com/celestiaorg/celestia-core/test/maverick/consensus"
 )
 
 const (

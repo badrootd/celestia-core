@@ -16,8 +16,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/libs/log"
-	types "github.com/cometbft/cometbft/rpc/jsonrpc/types"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	types "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
 )
 
 type sampleResult struct {

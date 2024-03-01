@@ -1,13 +1,13 @@
 package v1
 
 import (
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	"github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/log"
-	mempl "github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/proxy"
+	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
+	"github.com/celestiaorg/celestia-core/config"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	mempl "github.com/celestiaorg/celestia-core/mempool"
+	"github.com/celestiaorg/celestia-core/proxy"
 
-	mempoolv1 "github.com/cometbft/cometbft/mempool/v1"
+	mempoolv1 "github.com/celestiaorg/celestia-core/mempool/v1"
 )
 
 var mempool mempl.Mempool

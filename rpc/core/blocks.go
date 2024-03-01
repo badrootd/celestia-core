@@ -7,15 +7,15 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/cometbft/cometbft/crypto/merkle"
-	"github.com/cometbft/cometbft/libs/bytes"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtquery "github.com/cometbft/cometbft/libs/pubsub/query"
-	"github.com/cometbft/cometbft/pkg/consts"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	blockidxnull "github.com/cometbft/cometbft/state/indexer/block/null"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/crypto/merkle"
+	"github.com/celestiaorg/celestia-core/libs/bytes"
+	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
+	cmtquery "github.com/celestiaorg/celestia-core/libs/pubsub/query"
+	"github.com/celestiaorg/celestia-core/pkg/consts"
+	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
+	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	blockidxnull "github.com/celestiaorg/celestia-core/state/indexer/block/null"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // BlockchainInfo gets block headers for minHeight <= height <= maxHeight.

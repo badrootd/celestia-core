@@ -11,14 +11,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/crypto"
-	"github.com/cometbft/cometbft/crypto/ed25519"
-	"github.com/cometbft/cometbft/libs/bytes"
-	"github.com/cometbft/cometbft/libs/log"
-	"github.com/cometbft/cometbft/proto/tendermint/p2p"
+	"github.com/celestiaorg/celestia-core/crypto"
+	"github.com/celestiaorg/celestia-core/crypto/ed25519"
+	"github.com/celestiaorg/celestia-core/libs/bytes"
+	"github.com/celestiaorg/celestia-core/libs/log"
+	"github.com/celestiaorg/celestia-core/proto/tendermint/p2p"
 
-	"github.com/cometbft/cometbft/config"
-	cmtconn "github.com/cometbft/cometbft/p2p/conn"
+	"github.com/celestiaorg/celestia-core/config"
+	cmtconn "github.com/celestiaorg/celestia-core/p2p/conn"
 )
 
 func TestPeerBasic(t *testing.T) {

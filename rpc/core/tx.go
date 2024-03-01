@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"sort"
 
-	abcitypes "github.com/cometbft/cometbft/abci/types"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	cmtquery "github.com/cometbft/cometbft/libs/pubsub/query"
-	"github.com/cometbft/cometbft/pkg/consts"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/state/txindex/null"
-	"github.com/cometbft/cometbft/types"
+	abcitypes "github.com/celestiaorg/celestia-core/abci/types"
+	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
+	cmtquery "github.com/celestiaorg/celestia-core/libs/pubsub/query"
+	"github.com/celestiaorg/celestia-core/pkg/consts"
+	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
+	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	"github.com/celestiaorg/celestia-core/state"
+	"github.com/celestiaorg/celestia-core/state/txindex/null"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // Tx allows you to query the transaction results. `nil` could mean the

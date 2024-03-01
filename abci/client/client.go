@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
+	"github.com/celestiaorg/celestia-core/abci/types"
+	"github.com/celestiaorg/celestia-core/libs/service"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
 )
 
 const (

@@ -5,9 +5,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/cometbft/cometbft/crypto"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	p2pconn "github.com/cometbft/cometbft/p2p/conn"
+	"github.com/celestiaorg/celestia-core/crypto"
+	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
+	p2pconn "github.com/celestiaorg/celestia-core/p2p/conn"
 )
 
 // Socket errors.

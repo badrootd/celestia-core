@@ -9,8 +9,8 @@ import (
 	"path"
 	"path/filepath"
 
-	cfg "github.com/cometbft/cometbft/config"
-	rpchttp "github.com/cometbft/cometbft/rpc/client/http"
+	cfg "github.com/celestiaorg/celestia-core/config"
+	rpchttp "github.com/celestiaorg/celestia-core/rpc/client/http"
 )
 
 // dumpStatus gets node status state dump from the CometBFT RPC and writes it

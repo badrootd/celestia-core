@@ -1,7 +1,7 @@
 package cmap
 
 import (
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
 )
 
 // CMap is a goroutine-safe map

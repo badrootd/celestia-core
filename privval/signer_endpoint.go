@@ -5,10 +5,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/protoio"
-	"github.com/cometbft/cometbft/libs/service"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	privvalproto "github.com/cometbft/cometbft/proto/tendermint/privval"
+	"github.com/celestiaorg/celestia-core/libs/protoio"
+	"github.com/celestiaorg/celestia-core/libs/service"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	privvalproto "github.com/celestiaorg/celestia-core/proto/tendermint/privval"
 )
 
 const (

@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"sort"
 
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/p2p"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	"github.com/celestiaorg/celestia-core/p2p"
 )
 
 // snapshotKey is a snapshot key used for lookups.

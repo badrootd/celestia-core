@@ -6,11 +6,11 @@ import (
 	"strings"
 	"sync"
 
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	"github.com/cometbft/cometbft/p2p"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
-	"github.com/cometbft/cometbft/types"
+	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
+	"github.com/celestiaorg/celestia-core/p2p"
+	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 type RoundVoteSet struct {

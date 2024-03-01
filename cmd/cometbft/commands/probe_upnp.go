@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	"github.com/cometbft/cometbft/p2p/upnp"
+	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	"github.com/celestiaorg/celestia-core/p2p/upnp"
 )
 
 // ProbeUpnpCmd adds capabilities to test the UPnP functionality.

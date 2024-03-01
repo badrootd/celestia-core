@@ -1,7 +1,7 @@
 package node
 
 import (
-	"github.com/cometbft/cometbft/config"
+	"github.com/celestiaorg/celestia-core/config"
 	"github.com/grafana/pyroscope-go"
 
 	otelpyroscope "github.com/grafana/otel-profiling-go"

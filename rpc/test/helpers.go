@@ -8,18 +8,18 @@ import (
 	"strings"
 	"time"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/libs/log"
+	abci "github.com/celestiaorg/celestia-core/abci/types"
+	"github.com/celestiaorg/celestia-core/libs/log"
 
-	cfg "github.com/cometbft/cometbft/config"
-	cmtnet "github.com/cometbft/cometbft/libs/net"
-	nm "github.com/cometbft/cometbft/node"
-	"github.com/cometbft/cometbft/p2p"
-	"github.com/cometbft/cometbft/privval"
-	"github.com/cometbft/cometbft/proxy"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	core_grpc "github.com/cometbft/cometbft/rpc/grpc"
-	rpcclient "github.com/cometbft/cometbft/rpc/jsonrpc/client"
+	cfg "github.com/celestiaorg/celestia-core/config"
+	cmtnet "github.com/celestiaorg/celestia-core/libs/net"
+	nm "github.com/celestiaorg/celestia-core/node"
+	"github.com/celestiaorg/celestia-core/p2p"
+	"github.com/celestiaorg/celestia-core/privval"
+	"github.com/celestiaorg/celestia-core/proxy"
+	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
+	core_grpc "github.com/celestiaorg/celestia-core/rpc/grpc"
+	rpcclient "github.com/celestiaorg/celestia-core/rpc/jsonrpc/client"
 )
 
 // Options helps with specifying some parameters for our RPC testing for greater

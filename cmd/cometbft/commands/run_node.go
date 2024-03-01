@@ -9,10 +9,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	cfg "github.com/cometbft/cometbft/config"
-	cmtos "github.com/cometbft/cometbft/libs/os"
-	nm "github.com/cometbft/cometbft/node"
-	"github.com/cometbft/cometbft/pkg/trace"
+	cfg "github.com/celestiaorg/celestia-core/config"
+	cmtos "github.com/celestiaorg/celestia-core/libs/os"
+	nm "github.com/celestiaorg/celestia-core/node"
+	"github.com/celestiaorg/celestia-core/pkg/trace"
 )
 
 var (

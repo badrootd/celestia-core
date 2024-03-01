@@ -7,9 +7,9 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/cometbft/cometbft/test/loadtime/payload"
-	"github.com/cometbft/cometbft/test/loadtime/report"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/test/loadtime/payload"
+	"github.com/celestiaorg/celestia-core/test/loadtime/report"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 type mockBlockStore struct {

@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cometbft/cometbft/libs/log"
+	"github.com/celestiaorg/celestia-core/libs/log"
 	"github.com/stretchr/testify/require"
 )
 

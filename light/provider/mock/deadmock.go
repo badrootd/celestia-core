@@ -3,8 +3,8 @@ package mock
 import (
 	"context"
 
-	"github.com/cometbft/cometbft/light/provider"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/light/provider"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 type deadMock struct {

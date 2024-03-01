@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cometbft/cometbft/libs/bits"
-	cmtjson "github.com/cometbft/cometbft/libs/json"
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
+	"github.com/celestiaorg/celestia-core/libs/bits"
+	cmtjson "github.com/celestiaorg/celestia-core/libs/json"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	cmtproto "github.com/celestiaorg/celestia-core/proto/tendermint/types"
 )
 
 const (

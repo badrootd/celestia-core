@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cometbft/cometbft/libs/tempfile"
+	"github.com/celestiaorg/celestia-core/libs/tempfile"
 )
 
 /* Loading & Saving */

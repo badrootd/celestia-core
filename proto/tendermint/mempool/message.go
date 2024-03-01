@@ -3,7 +3,7 @@ package mempool
 import (
 	"fmt"
 
-	"github.com/cometbft/cometbft/p2p"
+	"github.com/celestiaorg/celestia-core/p2p"
 	"github.com/gogo/protobuf/proto"
 )
 

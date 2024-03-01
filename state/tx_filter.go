@@ -1,8 +1,8 @@
 package state
 
 import (
-	mempl "github.com/cometbft/cometbft/mempool"
-	"github.com/cometbft/cometbft/types"
+	mempl "github.com/celestiaorg/celestia-core/mempool"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // TxPreCheck returns a function to filter transactions before processing.

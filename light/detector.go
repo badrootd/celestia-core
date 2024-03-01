@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cometbft/cometbft/light/provider"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/light/provider"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // The detector component of the light client detects and handles attacks on the light client.

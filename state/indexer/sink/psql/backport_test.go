@@ -1,8 +1,8 @@
 package psql
 
 import (
-	"github.com/cometbft/cometbft/state/indexer"
-	"github.com/cometbft/cometbft/state/txindex"
+	"github.com/celestiaorg/celestia-core/state/indexer"
+	"github.com/celestiaorg/celestia-core/state/txindex"
 )
 
 var (

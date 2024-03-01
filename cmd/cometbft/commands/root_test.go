@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/cli"
-	cmtos "github.com/cometbft/cometbft/libs/os"
+	cfg "github.com/celestiaorg/celestia-core/config"
+	"github.com/celestiaorg/celestia-core/libs/cli"
+	cmtos "github.com/celestiaorg/celestia-core/libs/os"
 )
 
 var defaultRoot = os.ExpandEnv("$HOME/.some/test/dir")

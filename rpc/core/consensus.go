@@ -1,11 +1,11 @@
 package core
 
 import (
-	cm "github.com/cometbft/cometbft/consensus"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	cm "github.com/celestiaorg/celestia-core/consensus"
+	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
+	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
+	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // Validators gets the validator set at the given block height.

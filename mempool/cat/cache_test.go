@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 func TestSeenTxSet(t *testing.T) {

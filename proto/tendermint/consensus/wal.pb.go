@@ -5,7 +5,7 @@ package consensus
 
 import (
 	fmt "fmt"
-	types "github.com/cometbft/cometbft/proto/tendermint/types"
+	types "github.com/celestiaorg/celestia-core/proto/tendermint/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	_ "github.com/gogo/protobuf/types"

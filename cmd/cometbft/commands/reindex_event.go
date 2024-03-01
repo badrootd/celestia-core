@@ -8,16 +8,16 @@ import (
 	dbm "github.com/cometbft/cometbft-db"
 	"github.com/spf13/cobra"
 
-	abcitypes "github.com/cometbft/cometbft/abci/types"
-	cmtcfg "github.com/cometbft/cometbft/config"
-	"github.com/cometbft/cometbft/libs/progressbar"
-	"github.com/cometbft/cometbft/state"
-	"github.com/cometbft/cometbft/state/indexer"
-	blockidxkv "github.com/cometbft/cometbft/state/indexer/block/kv"
-	"github.com/cometbft/cometbft/state/indexer/sink/psql"
-	"github.com/cometbft/cometbft/state/txindex"
-	"github.com/cometbft/cometbft/state/txindex/kv"
-	"github.com/cometbft/cometbft/types"
+	abcitypes "github.com/celestiaorg/celestia-core/abci/types"
+	cmtcfg "github.com/celestiaorg/celestia-core/config"
+	"github.com/celestiaorg/celestia-core/libs/progressbar"
+	"github.com/celestiaorg/celestia-core/state"
+	"github.com/celestiaorg/celestia-core/state/indexer"
+	blockidxkv "github.com/celestiaorg/celestia-core/state/indexer/block/kv"
+	"github.com/celestiaorg/celestia-core/state/indexer/sink/psql"
+	"github.com/celestiaorg/celestia-core/state/txindex"
+	"github.com/celestiaorg/celestia-core/state/txindex/kv"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 const (

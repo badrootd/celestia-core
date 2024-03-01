@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 const defaultGlobalRequestTimeout = 1 * time.Hour

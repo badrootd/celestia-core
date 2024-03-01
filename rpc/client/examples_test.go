@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/cometbft/cometbft/abci/example/kvstore"
-	rpchttp "github.com/cometbft/cometbft/rpc/client/http"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctest "github.com/cometbft/cometbft/rpc/test"
+	"github.com/celestiaorg/celestia-core/abci/example/kvstore"
+	rpchttp "github.com/celestiaorg/celestia-core/rpc/client/http"
+	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
+	rpctest "github.com/celestiaorg/celestia-core/rpc/test"
 )
 
 func ExampleHTTP_simple() {

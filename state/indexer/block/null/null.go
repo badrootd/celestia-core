@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/cometbft/cometbft/libs/pubsub/query"
-	"github.com/cometbft/cometbft/state/indexer"
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/libs/pubsub/query"
+	"github.com/celestiaorg/celestia-core/state/indexer"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 var _ indexer.BlockIndexer = (*BlockerIndexer)(nil)

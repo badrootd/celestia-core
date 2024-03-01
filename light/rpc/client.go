@@ -10,15 +10,15 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	abci "github.com/cometbft/cometbft/abci/types"
-	"github.com/cometbft/cometbft/crypto/merkle"
-	cmtbytes "github.com/cometbft/cometbft/libs/bytes"
-	cmtmath "github.com/cometbft/cometbft/libs/math"
-	service "github.com/cometbft/cometbft/libs/service"
-	rpcclient "github.com/cometbft/cometbft/rpc/client"
-	ctypes "github.com/cometbft/cometbft/rpc/core/types"
-	rpctypes "github.com/cometbft/cometbft/rpc/jsonrpc/types"
-	"github.com/cometbft/cometbft/types"
+	abci "github.com/celestiaorg/celestia-core/abci/types"
+	"github.com/celestiaorg/celestia-core/crypto/merkle"
+	cmtbytes "github.com/celestiaorg/celestia-core/libs/bytes"
+	cmtmath "github.com/celestiaorg/celestia-core/libs/math"
+	service "github.com/celestiaorg/celestia-core/libs/service"
+	rpcclient "github.com/celestiaorg/celestia-core/rpc/client"
+	ctypes "github.com/celestiaorg/celestia-core/rpc/core/types"
+	rpctypes "github.com/celestiaorg/celestia-core/rpc/jsonrpc/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 var errNegOrZeroHeight = errors.New("negative or zero height")

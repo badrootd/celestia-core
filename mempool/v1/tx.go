@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 // WrappedTx defines a wrapper around a raw transaction with additional metadata

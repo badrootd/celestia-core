@@ -5,8 +5,8 @@ package consensus
 
 import (
 	fmt "fmt"
-	bits "github.com/cometbft/cometbft/proto/tendermint/libs/bits"
-	types "github.com/cometbft/cometbft/proto/tendermint/types"
+	bits "github.com/celestiaorg/celestia-core/proto/tendermint/libs/bits"
+	types "github.com/celestiaorg/celestia-core/proto/tendermint/types"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"

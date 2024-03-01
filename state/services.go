@@ -1,7 +1,7 @@
 package state
 
 import (
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/types"
 )
 
 //------------------------------------------------------

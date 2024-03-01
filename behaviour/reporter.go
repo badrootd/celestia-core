@@ -3,8 +3,8 @@ package behaviour
 import (
 	"errors"
 
-	cmtsync "github.com/cometbft/cometbft/libs/sync"
-	"github.com/cometbft/cometbft/p2p"
+	cmtsync "github.com/celestiaorg/celestia-core/libs/sync"
+	"github.com/celestiaorg/celestia-core/p2p"
 )
 
 // Reporter provides an interface for reactors to report the behaviour

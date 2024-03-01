@@ -1,6 +1,6 @@
 package factory
 
-import "github.com/cometbft/cometbft/types"
+import "github.com/celestiaorg/celestia-core/types"
 
 // MakeTxs is a helper function to generate mock transactions by given the block height
 // and the transaction numbers.

@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	abcicli "github.com/cometbft/cometbft/abci/client"
-	"github.com/cometbft/cometbft/abci/types"
+	abcicli "github.com/celestiaorg/celestia-core/abci/client"
+	"github.com/celestiaorg/celestia-core/abci/types"
 )
 
 //go:generate ../scripts/mockery_generate.sh AppConnConsensus|AppConnMempool|AppConnQuery|AppConnSnapshot

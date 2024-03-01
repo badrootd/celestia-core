@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cometbft/cometbft/types"
+	"github.com/celestiaorg/celestia-core/types"
 	"github.com/stretchr/testify/require"
 )
 

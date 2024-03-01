@@ -1,4 +1,4 @@
-module github.com/cometbft/cometbft
+module github.com/celestiaorg/celestia-core
 
 go 1.22
 

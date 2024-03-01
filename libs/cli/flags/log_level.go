@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cometbft/cometbft/libs/log"
+	"github.com/celestiaorg/celestia-core/libs/log"
 )
 
 const (
