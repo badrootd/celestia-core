@@ -83,7 +83,7 @@ func (m *EventDataRoundState) GetStep() string {
 }
 
 func init() {
-	proto.RegisterType((*EventDataRoundState)(nil), "tendermint.types.EventDataRoundState")
+	proto.RegisterType((*EventDataRoundState)(nil), "badrootdcelestiacore.types.EventDataRoundState")
 }
 
 func init() { proto.RegisterFile("tendermint/types/events.proto", fileDescriptor_72cfafd446dedf7c) }

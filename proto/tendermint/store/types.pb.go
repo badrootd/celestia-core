@@ -75,7 +75,7 @@ func (m *BlockStoreState) GetHeight() int64 {
 }
 
 func init() {
-	proto.RegisterType((*BlockStoreState)(nil), "tendermint.store.BlockStoreState")
+	proto.RegisterType((*BlockStoreState)(nil), "badrootdcelestiacore.store.BlockStoreState")
 }
 
 func init() { proto.RegisterFile("tendermint/store/types.proto", fileDescriptor_ff9e53a0a74267f7) }

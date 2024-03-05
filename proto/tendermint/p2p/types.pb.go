@@ -296,10 +296,10 @@ func (m *DefaultNodeInfoOther) GetRPCAddress() string {
 }
 
 func init() {
-	proto.RegisterType((*NetAddress)(nil), "tendermint.p2p.NetAddress")
-	proto.RegisterType((*ProtocolVersion)(nil), "tendermint.p2p.ProtocolVersion")
-	proto.RegisterType((*DefaultNodeInfo)(nil), "tendermint.p2p.DefaultNodeInfo")
-	proto.RegisterType((*DefaultNodeInfoOther)(nil), "tendermint.p2p.DefaultNodeInfoOther")
+	proto.RegisterType((*NetAddress)(nil), "badrootdcelestiacore.p2p.NetAddress")
+	proto.RegisterType((*ProtocolVersion)(nil), "badrootdcelestiacore.p2p.ProtocolVersion")
+	proto.RegisterType((*DefaultNodeInfo)(nil), "badrootdcelestiacore.p2p.DefaultNodeInfo")
+	proto.RegisterType((*DefaultNodeInfoOther)(nil), "badrootdcelestiacore.p2p.DefaultNodeInfoOther")
 }
 
 func init() { proto.RegisterFile("tendermint/p2p/types.proto", fileDescriptor_c8a29e659aeca578) }

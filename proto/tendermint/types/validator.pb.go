@@ -205,9 +205,9 @@ func (m *SimpleValidator) GetVotingPower() int64 {
 }
 
 func init() {
-	proto.RegisterType((*ValidatorSet)(nil), "tendermint.types.ValidatorSet")
-	proto.RegisterType((*Validator)(nil), "tendermint.types.Validator")
-	proto.RegisterType((*SimpleValidator)(nil), "tendermint.types.SimpleValidator")
+	proto.RegisterType((*ValidatorSet)(nil), "badrootdcelestiacore.types.ValidatorSet")
+	proto.RegisterType((*Validator)(nil), "badrootdcelestiacore.types.Validator")
+	proto.RegisterType((*SimpleValidator)(nil), "badrootdcelestiacore.types.SimpleValidator")
 }
 
 func init() { proto.RegisterFile("tendermint/types/validator.proto", fileDescriptor_4e92274df03d3088) }

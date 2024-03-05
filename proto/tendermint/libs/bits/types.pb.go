@@ -75,7 +75,7 @@ func (m *BitArray) GetElems() []uint64 {
 }
 
 func init() {
-	proto.RegisterType((*BitArray)(nil), "tendermint.libs.bits.BitArray")
+	proto.RegisterType((*BitArray)(nil), "badrootdcelestiacore.libs.bits.BitArray")
 }
 
 func init() { proto.RegisterFile("tendermint/libs/bits/types.proto", fileDescriptor_e91ab2672920d7d4) }
